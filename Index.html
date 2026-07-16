@@ -3,190 +3,161 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Axel Raffenaud — Directeur Général Adjoint • Transformation • Croissance • Gouvernance</title>
-<meta name="description" content="Axel Raffenaud, Directeur Général Adjoint & Chief Revenue Officer. 20+ ans à transformer, structurer et faire croître des PME/ETI et éditeurs SaaS. ARR ×4, 350 clients, 74 partenariats.">
-<meta property="og:title" content="Axel Raffenaud — DGA • Transformation • Croissance">
-<meta property="og:description" content="Dirigeant opérationnel avec 20+ ans d'expérience dans le développement commercial, le pilotage P&L et la transformation d'organisations.">
+<title>Axel Raffenaud — Leadership • Transformation • Création de valeur</title>
+<meta name="description" content="Axel Raffenaud, dirigeant opérationnel et stratégique. Plus de 20 ans d’expérience en transformation, développement commercial, pilotage de performance et gouvernance de PME/ETI et SaaS B2B.">
+<meta property="og:title" content="Axel Raffenaud — Leadership • Transformation • Création de valeur">
+<meta property="og:description" content="Dirigeant opérationnel avec plus de 20 ans d’expérience dans la transformation, la croissance et le pilotage de la performance.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://axel-raffenaud-portfolio.netlify.app/">
 <meta property="og:image" content="https://axel-raffenaud-portfolio.netlify.app/photo_axel.png">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Axel Raffenaud — DGA • Transformation • Croissance">
-<meta name="twitter:description" content="20+ ans à structurer, scaler et transformer des organisations. Portfolio interactif.">
+<meta name="twitter:title" content="Axel Raffenaud — Leadership • Transformation • Création de valeur">
+<meta name="twitter:description" content="Un parcours de dirigeant centré sur la croissance, la structuration et la performance durable.">
 <meta name="twitter:image" content="https://axel-raffenaud-portfolio.netlify.app/photo_axel.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <style>
   :root {
-    --bg: #07111D;
-    --surface: #101C2B;
-    --surface-hover: #152437;
-    --white: #FFFFFF;
-    --gray: #B9C1CC;
-    --gray-dim: #6B7888;
-    --accent: #C8A86A;
-    --accent-soft: rgba(200,168,106,0.12);
-    --accent-glow: rgba(200,168,106,0.25);
-    --blue: #4C82FF;
-    --border: rgba(255,255,255,0.07);
-    --border-hover: rgba(255,255,255,0.14);
-    --radius-sm: 8px;
-    --radius-md: 12px;
-    --radius-lg: 16px;
-    --radius-xl: 24px;
-    --shadow: 0 8px 32px rgba(0,0,0,0.35);
-    --shadow-glow: 0 0 60px rgba(76,130,255,0.08);
-    --transition: all 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+    --bg: #06101B;
+    --surface: #0E1A29;
+    --surface-2: #132131;
+    --text: #F5F7FA;
+    --muted: #AEB8C4;
+    --muted-2: #6D7A88;
+    --accent: #C6A46A;
+    --accent-soft: rgba(198, 164, 106, 0.12);
+    --accent-line: rgba(198, 164, 106, 0.28);
+    --line: rgba(255,255,255,0.08);
+    --line-2: rgba(255,255,255,0.14);
+    --shadow: 0 18px 50px rgba(0,0,0,0.32);
+    --radius: 18px;
+    --radius-sm: 10px;
+    --transition: all .32s cubic-bezier(.4,0,.2,1);
   }
-  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
   html { scroll-behavior: smooth; }
   body {
-    font-family: 'Inter', -apple-system, sans-serif;
+    font-family: 'Inter', sans-serif;
     background: var(--bg);
-    color: var(--white);
-    line-height: 1.65;
+    color: var(--text);
+    line-height: 1.7;
     -webkit-font-smoothing: antialiased;
     overflow-x: hidden;
   }
-  h1, h2, h3, h4, .font-display {
-    font-family: 'Manrope', sans-serif;
-    letter-spacing: -0.02em;
-    line-height: 1.2;
-  }
+  h1,h2,h3,h4,.display { font-family: 'Manrope', sans-serif; letter-spacing: -0.03em; line-height: 1.08; }
 
   nav {
     position: fixed;
-    top: 0; left: 0; right: 0;
+    inset: 0 0 auto 0;
     z-index: 1000;
+    height: 74px;
     padding: 0 32px;
-    height: 72px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: rgba(7,17,29,0.75);
-    backdrop-filter: blur(20px);
-    -webkit-backdrop-filter: blur(20px);
-    border-bottom: 1px solid var(--border);
+    background: rgba(6,16,27,.72);
+    backdrop-filter: blur(18px);
+    border-bottom: 1px solid var(--line);
     transition: var(--transition);
   }
-  nav.scrolled {
-    background: rgba(7,17,29,0.92);
-    height: 64px;
-  }
+  nav.scrolled { height: 66px; background: rgba(6,16,27,.92); }
   .nav-brand {
     font-family: 'Manrope', sans-serif;
-    font-weight: 700;
-    font-size: 15px;
-    letter-spacing: 0.05em;
+    font-size: 14px;
+    font-weight: 800;
+    letter-spacing: .12em;
     text-transform: uppercase;
-    color: var(--white);
   }
   .nav-brand span { color: var(--accent); }
   .nav-links {
     display: flex;
-    gap: 32px;
+    gap: 28px;
     list-style: none;
   }
   .nav-links a {
+    color: var(--muted);
+    text-decoration: none;
     font-size: 13px;
     font-weight: 500;
-    color: var(--gray);
-    text-decoration: none;
-    transition: var(--transition);
     position: relative;
+    transition: var(--transition);
   }
   .nav-links a::after {
     content: '';
     position: absolute;
-    bottom: -4px; left: 0;
-    width: 0; height: 1.5px;
+    left: 0;
+    bottom: -4px;
+    width: 0;
+    height: 1px;
     background: var(--accent);
-    transition: width 0.3s ease;
+    transition: width .25s ease;
   }
-  .nav-links a:hover { color: var(--white); }
+  .nav-links a:hover { color: var(--text); }
   .nav-links a:hover::after { width: 100%; }
   .nav-cta {
-    padding: 10px 20px;
-    border-radius: var(--radius-sm);
+    padding: 11px 18px;
+    border-radius: 999px;
     background: var(--accent);
     color: var(--bg);
-    font-family: 'Manrope', sans-serif;
-    font-size: 12px;
-    font-weight: 700;
-    letter-spacing: 0.04em;
-    text-transform: uppercase;
     text-decoration: none;
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: .08em;
+    text-transform: uppercase;
     transition: var(--transition);
-    border: none;
-    cursor: pointer;
   }
-  .nav-cta:hover {
-    transform: translateY(-1px);
-    box-shadow: 0 4px 20px rgba(200,168,106,0.25);
-  }
-  .nav-mobile-btn {
-    display: none;
-    background: none;
-    border: none;
-    color: var(--white);
-    font-size: 24px;
-    cursor: pointer;
-  }
+  .nav-cta:hover { transform: translateY(-1px); box-shadow: 0 8px 24px rgba(198,164,106,.22); }
+  .nav-mobile-btn { display: none; background: none; border: 0; color: var(--text); font-size: 24px; }
 
   section {
     position: relative;
-    padding: 120px 32px;
-    max-width: 1100px;
+    max-width: 1120px;
     margin: 0 auto;
+    padding: 120px 32px;
   }
   .section-label {
     font-family: 'Manrope', sans-serif;
-    font-size: 11px;
-    font-weight: 700;
-    letter-spacing: 0.15em;
-    text-transform: uppercase;
     color: var(--accent);
-    margin-bottom: 16px;
+    text-transform: uppercase;
+    letter-spacing: .18em;
+    font-size: 11px;
+    font-weight: 800;
+    margin-bottom: 14px;
   }
   .section-title {
-    font-size: 36px;
-    font-weight: 700;
-    margin-bottom: 48px;
-    max-width: 600px;
+    font-size: 40px;
+    font-weight: 800;
+    max-width: 760px;
+    margin-bottom: 22px;
   }
-  .section-title.light { color: var(--white); }
   .section-subtitle {
+    color: var(--muted);
     font-size: 17px;
-    color: var(--gray);
-    max-width: 560px;
-    line-height: 1.7;
+    max-width: 680px;
   }
 
   .reveal {
     opacity: 0;
-    transform: translateY(40px);
-    transition: opacity 0.8s cubic-bezier(0.4,0,0.2,1), transform 0.8s cubic-bezier(0.4,0,0.2,1);
+    transform: translateY(28px);
+    transition: opacity .75s ease, transform .75s ease;
   }
-  .reveal.visible {
-    opacity: 1;
-    transform: translateY(0);
-  }
-  .reveal-delay-1 { transition-delay: 0.1s; }
-  .reveal-delay-2 { transition-delay: 0.2s; }
-  .reveal-delay-3 { transition-delay: 0.3s; }
-  .reveal-delay-4 { transition-delay: 0.4s; }
+  .reveal.visible { opacity: 1; transform: translateY(0); }
+  .reveal-delay-1 { transition-delay: .08s; }
+  .reveal-delay-2 { transition-delay: .16s; }
+  .reveal-delay-3 { transition-delay: .24s; }
 
   #hero {
     min-height: 100vh;
     display: flex;
     align-items: center;
-    padding-top: 120px;
-    padding-bottom: 80px;
+    padding-top: 110px;
+    padding-bottom: 70px;
   }
   .hero-grid {
     display: grid;
-    grid-template-columns: 1.1fr 0.9fr;
+    grid-template-columns: 1.08fr .92fr;
     gap: 64px;
     align-items: center;
     width: 100%;
@@ -194,215 +165,154 @@
   .hero-label {
     font-family: 'Manrope', sans-serif;
     font-size: 11px;
-    font-weight: 700;
-    letter-spacing: 0.2em;
+    font-weight: 800;
+    letter-spacing: .22em;
     text-transform: uppercase;
     color: var(--accent);
-    margin-bottom: 24px;
+    margin-bottom: 22px;
   }
   .hero-name {
-    font-size: 56px;
+    font-size: 60px;
     font-weight: 800;
-    line-height: 1.05;
-    margin-bottom: 16px;
-    background: linear-gradient(135deg, #fff 0%, #B9C1CC 100%);
+    line-height: .98;
+    margin-bottom: 18px;
+    background: linear-gradient(135deg, #fff 0%, #c9d0da 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    background-clip: text;
   }
   .hero-title {
     font-size: 20px;
-    font-weight: 500;
-    color: var(--gray);
-    margin-bottom: 32px;
+    color: var(--muted);
+    margin-bottom: 28px;
   }
   .hero-mantra {
-    font-size: 22px;
-    font-weight: 500;
-    font-style: italic;
-    color: var(--white);
-    line-height: 1.5;
-    margin-bottom: 40px;
-    padding-left: 20px;
+    max-width: 520px;
+    padding-left: 18px;
     border-left: 2px solid var(--accent);
-    max-width: 480px;
-    min-height: 66px;
+    font-size: 22px;
+    line-height: 1.55;
+    font-style: italic;
+    color: var(--text);
+    margin-bottom: 36px;
+    min-height: 72px;
   }
-  .hero-cta-group {
-    display: flex;
-    gap: 16px;
-    flex-wrap: wrap;
-  }
+  .hero-cta-group { display: flex; gap: 14px; flex-wrap: wrap; }
   .btn {
-    padding: 14px 28px;
-    border-radius: var(--radius-sm);
-    font-family: 'Manrope', sans-serif;
-    font-size: 13px;
-    font-weight: 700;
-    letter-spacing: 0.04em;
-    text-transform: uppercase;
-    text-decoration: none;
-    transition: var(--transition);
-    cursor: pointer;
-    border: none;
     display: inline-flex;
     align-items: center;
-    gap: 8px;
-  }
-  .btn-primary {
-    background: var(--accent);
-    color: var(--bg);
-  }
-  .btn-primary:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 8px 24px rgba(200,168,106,0.3);
-  }
-  .btn-secondary {
-    background: transparent;
-    color: var(--white);
-    border: 1px solid var(--border-hover);
-  }
-  .btn-secondary:hover {
-    border-color: var(--accent);
-    color: var(--accent);
-  }
-  .hero-photo-wrap {
-    position: relative;
-    display: flex;
     justify-content: center;
-    align-items: center;
+    gap: 8px;
+    padding: 14px 24px;
+    border-radius: 999px;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: .08em;
+    font-size: 12px;
+    font-weight: 800;
+    transition: var(--transition);
   }
-  .hero-photo {
-    width: 380px;
-    height: 380px;
-    object-fit: cover;
-    border-radius: 50%;
-    position: relative;
-    z-index: 2;
-    border: 2px solid rgba(200,168,106,0.15);
-    transition: transform 0.1s ease-out;
-  }
+  .btn-primary { background: var(--accent); color: var(--bg); }
+  .btn-primary:hover { transform: translateY(-1px); box-shadow: 0 10px 24px rgba(198,164,106,.24); }
+  .btn-secondary { border: 1px solid var(--line-2); color: var(--text); background: transparent; }
+  .btn-secondary:hover { border-color: var(--accent); color: var(--accent); }
+  .hero-photo-wrap { position: relative; display: flex; justify-content: center; align-items: center; }
   .hero-photo-halo {
     position: absolute;
-    width: 420px;
-    height: 420px;
+    width: 440px;
+    height: 440px;
     border-radius: 50%;
-    background: radial-gradient(circle, rgba(76,130,255,0.08) 0%, transparent 70%);
-    z-index: 1;
-    animation: pulse-halo 4s ease-in-out infinite;
+    background: radial-gradient(circle, rgba(198,164,106,.10) 0%, transparent 68%);
+    animation: pulse 4s ease-in-out infinite;
   }
-  @keyframes pulse-halo {
-    0%, 100% { transform: scale(1); opacity: 0.6; }
-    50% { transform: scale(1.08); opacity: 0.3; }
+  .hero-photo {
+    position: relative;
+    z-index: 2;
+    width: 390px;
+    height: 390px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 1px solid rgba(198,164,106,.18);
+    box-shadow: var(--shadow);
+    transition: transform .1s ease-out;
+  }
+  @keyframes pulse {
+    0%,100% { transform: scale(1); opacity: .65; }
+    50% { transform: scale(1.07); opacity: .35; }
   }
   .hero-scroll {
     position: absolute;
-    bottom: 40px;
+    bottom: 34px;
     left: 50%;
     transform: translateX(-50%);
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 8px;
-    color: var(--gray-dim);
+    color: var(--muted-2);
     font-size: 11px;
-    letter-spacing: 0.1em;
     text-transform: uppercase;
-    animation: bounce 2s infinite;
+    letter-spacing: .14em;
   }
-  .hero-scroll-line {
-    width: 1px;
-    height: 40px;
-    background: linear-gradient(to bottom, var(--accent), transparent);
-  }
-  @keyframes bounce {
-    0%, 20%, 50%, 80%, 100% { transform: translateX(-50%) translateY(0); }
-    40% { transform: translateX(-50%) translateY(-8px); }
-    60% { transform: translateX(-50%) translateY(-4px); }
-  }
-  .cursor {
-    display: inline-block;
-    width: 2px;
-    height: 1em;
-    background: var(--accent);
-    margin-left: 2px;
-    animation: blink 1s step-end infinite;
-    vertical-align: middle;
-  }
+  .hero-scroll-line { width: 1px; height: 42px; background: linear-gradient(to bottom, var(--accent), transparent); }
+  .cursor { display: inline-block; width: 2px; height: 1em; background: var(--accent); margin-left: 2px; animation: blink 1s step-end infinite; }
   @keyframes blink { 50% { opacity: 0; } }
 
   #impact {
-    padding: 80px 32px;
-    background: var(--surface);
-    border-top: 1px solid var(--border);
-    border-bottom: 1px solid var(--border);
     max-width: 100%;
+    padding: 86px 32px;
+    background: var(--surface);
+    border-top: 1px solid var(--line);
+    border-bottom: 1px solid var(--line);
   }
   .impact-grid {
+    max-width: 1120px;
+    margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 32px;
-    max-width: 1100px;
-    margin: 0 auto;
+    gap: 22px;
   }
   .impact-item {
     text-align: center;
-    padding: 32px 16px;
-    border-radius: var(--radius-md);
-    border: 1px solid var(--border);
+    padding: 30px 18px;
+    border-radius: var(--radius);
     background: var(--bg);
+    border: 1px solid var(--line);
     transition: var(--transition);
   }
-  .impact-item:hover {
-    border-color: var(--border-hover);
-    transform: translateY(-4px);
-    box-shadow: var(--shadow-glow);
-  }
+  .impact-item:hover { transform: translateY(-4px); border-color: var(--line-2); }
   .impact-number {
     font-family: 'Manrope', sans-serif;
     font-size: 42px;
     font-weight: 800;
     color: var(--accent);
     line-height: 1;
-    margin-bottom: 8px;
+    margin-bottom: 10px;
     font-variant-numeric: tabular-nums;
   }
-  .impact-label {
-    font-size: 13px;
-    color: var(--gray);
-    font-weight: 500;
-  }
-  .impact-sublabel {
-    font-size: 12px;
-    color: var(--gray-dim);
-    margin-top: 4px;
-  }
+  .impact-label { font-size: 13px; font-weight: 600; color: var(--text); }
+  .impact-sublabel { font-size: 12px; color: var(--muted-2); margin-top: 4px; }
 
-  #conviction {
-    text-align: center;
-    padding: 160px 32px;
-  }
+  #conviction { text-align: center; padding-top: 150px; padding-bottom: 150px; }
   .conviction-quote {
-    font-family: 'Manrope', sans-serif;
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 1.3;
-    max-width: 700px;
-    margin: 0 auto 32px;
+    max-width: 820px;
+    margin: 0 auto 24px;
+    font-size: 38px;
+    font-weight: 800;
+    line-height: 1.25;
   }
   .conviction-quote .accent { color: var(--accent); }
   .conviction-text {
-    font-size: 17px;
-    color: var(--gray);
-    max-width: 540px;
+    max-width: 720px;
     margin: 0 auto;
-    line-height: 1.8;
+    color: var(--muted);
+    font-size: 17px;
+    line-height: 1.85;
   }
 
-  #parcours { padding-bottom: 80px; }
+  #parcours { padding-bottom: 88px; }
   .timeline {
     position: relative;
-    padding-left: 40px;
+    padding-left: 42px;
   }
   .timeline::before {
     content: '';
@@ -411,59 +321,39 @@
     top: 8px;
     bottom: 8px;
     width: 1px;
-    background: linear-gradient(to bottom, var(--accent), var(--blue), transparent);
+    background: linear-gradient(to bottom, var(--accent), rgba(198,164,106,.2), transparent);
   }
   .timeline-item {
     position: relative;
-    padding-bottom: 48px;
+    padding-bottom: 46px;
     opacity: 0;
-    transform: translateX(-20px);
-    transition: all 0.6s ease;
+    transform: translateX(-16px);
+    transition: all .55s ease;
   }
-  .timeline-item.visible {
-    opacity: 1;
-    transform: translateX(0);
-  }
+  .timeline-item.visible { opacity: 1; transform: translateX(0); }
   .timeline-dot {
     position: absolute;
     left: -40px;
-    top: 6px;
-    width: 15px;
-    height: 15px;
+    top: 5px;
+    width: 14px;
+    height: 14px;
     border-radius: 50%;
     background: var(--bg);
     border: 2px solid var(--accent);
-    z-index: 2;
   }
-  .timeline-dot.current {
-    background: var(--accent);
-    box-shadow: 0 0 12px rgba(200,168,106,0.4);
-  }
+  .timeline-dot.current { background: var(--accent); box-shadow: 0 0 14px rgba(198,164,106,.35); }
   .timeline-date {
     font-family: 'Manrope', sans-serif;
-    font-size: 12px;
-    font-weight: 700;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
     color: var(--accent);
-    margin-bottom: 4px;
+    text-transform: uppercase;
+    letter-spacing: .12em;
+    font-size: 12px;
+    font-weight: 800;
+    margin-bottom: 6px;
   }
-  .timeline-role {
-    font-size: 18px;
-    font-weight: 600;
-    margin-bottom: 4px;
-  }
-  .timeline-company {
-    font-size: 14px;
-    color: var(--gray);
-    margin-bottom: 8px;
-  }
-  .timeline-desc {
-    font-size: 14px;
-    color: var(--gray-dim);
-    line-height: 1.6;
-    max-width: 500px;
-  }
+  .timeline-role { font-size: 19px; font-weight: 700; margin-bottom: 4px; }
+  .timeline-company { font-size: 14px; color: var(--muted); margin-bottom: 10px; }
+  .timeline-desc { max-width: 560px; color: var(--muted-2); font-size: 14px; line-height: 1.75; }
 
   .expertise-grid {
     display: grid;
@@ -471,558 +361,404 @@
     gap: 16px;
   }
   .expertise-card {
-    padding: 32px 24px;
-    border-radius: var(--radius-md);
-    border: 1px solid var(--border);
+    padding: 30px 24px;
+    border-radius: var(--radius);
     background: var(--surface);
+    border: 1px solid var(--line);
     transition: var(--transition);
-    cursor: default;
   }
   .expertise-card:hover {
-    border-color: var(--accent);
-    background: var(--surface-hover);
     transform: translateY(-4px);
-    box-shadow: 0 12px 40px rgba(0,0,0,0.3);
+    border-color: var(--accent-line);
+    background: var(--surface-2);
   }
   .expertise-icon {
     width: 40px;
     height: 40px;
-    border-radius: var(--radius-sm);
+    border-radius: 12px;
     background: var(--accent-soft);
+    color: var(--accent);
     display: flex;
     align-items: center;
     justify-content: center;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 800;
     margin-bottom: 16px;
-    font-size: 18px;
-    color: var(--accent);
-    font-family: 'Manrope', sans-serif;
-    font-weight: 700;
   }
-  .expertise-title {
-    font-family: 'Manrope', sans-serif;
-    font-size: 16px;
-    font-weight: 700;
-    margin-bottom: 8px;
-  }
-  .expertise-desc {
-    font-size: 13px;
-    color: var(--gray);
-    line-height: 1.6;
-  }
+  .expertise-title { font-size: 16px; font-weight: 800; margin-bottom: 8px; }
+  .expertise-desc { font-size: 13px; color: var(--muted); line-height: 1.7; }
 
   #recherche {
-    background: var(--surface);
-    border-top: 1px solid var(--border);
-    border-bottom: 1px solid var(--border);
     max-width: 100%;
-    padding: 120px 32px;
+    background: var(--surface);
+    border-top: 1px solid var(--line);
+    border-bottom: 1px solid var(--line);
   }
-  .recherche-inner {
-    max-width: 1100px;
-    margin: 0 auto;
-  }
+  .recherche-inner { max-width: 1120px; margin: 0 auto; }
   .recherche-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 24px;
-    margin-top: 48px;
+    gap: 22px;
+    margin-top: 46px;
   }
   .recherche-card {
-    padding: 36px 28px;
-    border-radius: var(--radius-lg);
-    border: 1px solid var(--border);
+    padding: 34px 28px;
+    border-radius: var(--radius);
     background: var(--bg);
+    border: 1px solid var(--line);
     transition: var(--transition);
   }
-  .recherche-card:hover {
-    border-color: var(--accent);
-    transform: translateY(-4px);
-    box-shadow: 0 12px 40px rgba(0,0,0,0.3);
-  }
+  .recherche-card:hover { transform: translateY(-4px); border-color: var(--accent-line); }
   .recherche-icon {
     width: 44px;
     height: 44px;
-    border-radius: var(--radius-sm);
+    border-radius: 12px;
     background: var(--accent-soft);
+    color: var(--accent);
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 20px;
-    font-size: 16px;
-    color: var(--accent);
     font-family: 'Manrope', sans-serif;
-    font-weight: 700;
+    font-weight: 800;
+    margin-bottom: 18px;
   }
-  .recherche-card h3 {
-    font-size: 18px;
-    font-weight: 700;
-    margin-bottom: 16px;
-  }
-  .recherche-card ul {
-    list-style: none;
-    padding: 0;
-  }
+  .recherche-card h3 { font-size: 18px; font-weight: 800; margin-bottom: 14px; }
+  .recherche-card ul { list-style: none; }
   .recherche-card li {
-    font-size: 14px;
-    color: var(--gray);
-    line-height: 1.8;
-    padding-left: 16px;
     position: relative;
+    padding-left: 16px;
+    color: var(--muted);
+    font-size: 14px;
+    line-height: 1.8;
   }
   .recherche-card li::before {
     content: '';
     position: absolute;
-    left: 0; top: 10px;
-    width: 5px; height: 5px;
+    left: 0;
+    top: 11px;
+    width: 5px;
+    height: 5px;
     border-radius: 50%;
     background: var(--accent);
   }
   .recherche-highlight {
-    font-size: 13px;
-    color: var(--accent);
-    font-weight: 600;
     margin-top: 16px;
-    padding-top: 16px;
-    border-top: 1px solid var(--border);
+    padding-top: 14px;
+    border-top: 1px solid var(--line);
     font-family: 'Manrope', sans-serif;
+    font-size: 12px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: .08em;
+    color: var(--accent);
   }
 
-  #temoignages {
-    max-width: 100%;
-    padding: 120px 0;
-    overflow: hidden;
-  }
-  .temoignages-header {
-    max-width: 1100px;
-    margin: 0 auto;
-    padding: 0 32px;
-    margin-bottom: 48px;
-  }
-  .carousel-wrapper {
-    position: relative;
-    width: 100%;
-  }
+  #temoignages { max-width: 100%; padding: 120px 0; overflow: hidden; }
+  .temoignages-header { max-width: 1120px; margin: 0 auto 48px; padding: 0 32px; }
   .carousel-track {
     display: flex;
-    gap: 24px;
+    gap: 22px;
     padding: 0 32px;
     overflow-x: auto;
     scroll-snap-type: x mandatory;
-    scroll-behavior: smooth;
-    -webkit-overflow-scrolling: touch;
     scrollbar-width: none;
+    -webkit-overflow-scrolling: touch;
   }
   .carousel-track::-webkit-scrollbar { display: none; }
   .testimonial-card {
-    flex: 0 0 420px;
+    flex: 0 0 430px;
     scroll-snap-align: start;
     background: var(--surface);
-    border: 1px solid var(--border);
-    border-radius: var(--radius-lg);
-    padding: 36px 32px;
-    transition: var(--transition);
-    display: flex;
-    flex-direction: column;
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    padding: 34px 30px;
     position: relative;
-  }
-  .testimonial-card:hover {
-    border-color: var(--border-hover);
-    transform: translateY(-4px);
-    box-shadow: 0 16px 40px rgba(0,0,0,0.2);
   }
   .testimonial-card::before {
     content: '"';
+    position: absolute;
+    right: 22px;
+    top: 10px;
     font-family: 'Manrope', sans-serif;
     font-size: 72px;
     color: var(--accent);
-    opacity: 0.12;
+    opacity: .10;
     line-height: 1;
-    position: absolute;
-    top: 12px;
-    right: 24px;
   }
   .testimonial-text {
+    color: var(--muted);
     font-size: 14px;
-    color: var(--gray);
-    line-height: 1.75;
+    line-height: 1.8;
     font-style: italic;
-    margin-bottom: 28px;
-    flex-grow: 1;
+    margin-bottom: 24px;
   }
-  .testimonial-author {
-    border-top: 1px solid var(--border);
-    padding-top: 20px;
-  }
+  .testimonial-author { border-top: 1px solid var(--line); padding-top: 18px; }
   .testimonial-name {
-    font-family: 'Manrope', sans-serif;
-    font-weight: 700;
-    font-size: 14px;
-    color: var(--white);
+    color: var(--text);
     text-decoration: none;
-    transition: color 0.3s;
+    font-size: 14px;
+    font-weight: 800;
+    font-family: 'Manrope', sans-serif;
   }
   .testimonial-name:hover { color: var(--accent); }
-  .testimonial-role {
-    font-size: 12px;
-    color: var(--gray-dim);
-    margin-top: 2px;
-  }
+  .testimonial-role { color: var(--muted-2); font-size: 12px; margin-top: 3px; }
   .testimonial-relation {
     display: inline-block;
     margin-top: 10px;
-    font-size: 11px;
-    font-weight: 600;
-    color: var(--accent);
+    padding: 4px 10px;
+    border-radius: 999px;
     background: var(--accent-soft);
-    padding: 4px 12px;
-    border-radius: 20px;
-    font-family: 'Manrope', sans-serif;
-    letter-spacing: 0.04em;
+    color: var(--accent);
+    font-size: 11px;
+    font-weight: 800;
+    letter-spacing: .06em;
+    text-transform: uppercase;
   }
-  .carousel-nav {
-    display: flex;
-    justify-content: center;
-    gap: 12px;
-    margin-top: 40px;
-  }
+  .carousel-nav, .carousel-dots { display: flex; justify-content: center; gap: 10px; }
+  .carousel-nav { margin-top: 34px; }
   .carousel-btn {
     width: 44px;
     height: 44px;
     border-radius: 50%;
-    border: 1px solid var(--border);
+    border: 1px solid var(--line);
     background: var(--surface);
-    color: var(--white);
-    font-size: 18px;
+    color: var(--text);
     cursor: pointer;
     transition: var(--transition);
-    display: flex;
-    align-items: center;
-    justify-content: center;
   }
-  .carousel-btn:hover {
-    border-color: var(--accent);
-    color: var(--accent);
-    transform: scale(1.1);
-  }
-  .carousel-dots {
-    display: flex;
-    justify-content: center;
-    gap: 8px;
-    margin-top: 20px;
-  }
+  .carousel-btn:hover { border-color: var(--accent); color: var(--accent); transform: translateY(-1px); }
+  .carousel-dots { margin-top: 18px; }
   .carousel-dot {
-    width: 8px;
-    height: 8px;
-    border-radius: 50%;
-    background: var(--border-hover);
-    border: none;
-    cursor: pointer;
-    transition: var(--transition);
+    width: 8px; height: 8px; border-radius: 50%; border: 0; background: var(--line-2);
+    cursor: pointer; transition: var(--transition);
   }
-  .carousel-dot.active {
-    background: var(--accent);
-    width: 24px;
-    border-radius: 4px;
-  }
+  .carousel-dot.active { width: 22px; border-radius: 999px; background: var(--accent); }
 
   .case-study {
-    border-radius: var(--radius-lg);
-    border: 1px solid var(--border);
+    margin-bottom: 18px;
+    border-radius: var(--radius);
     overflow: hidden;
-    margin-bottom: 20px;
     background: var(--surface);
-    transition: var(--transition);
-  }
-  .case-study:hover {
-    border-color: var(--border-hover);
+    border: 1px solid var(--line);
   }
   .case-header {
-    padding: 24px 32px;
+    padding: 24px 30px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     cursor: pointer;
     user-select: none;
-    transition: background 0.3s;
   }
-  .case-header:hover { background: var(--surface-hover); }
-  .case-header-left { display: flex; align-items: center; gap: 16px; flex-wrap: wrap; }
-  .case-company {
-    font-family: 'Manrope', sans-serif;
-    font-size: 18px;
-    font-weight: 700;
-  }
-  .case-tagline {
-    font-size: 13px;
-    color: var(--gray);
-  }
+  .case-header:hover { background: var(--surface-2); }
+  .case-header-left { display: flex; align-items: center; gap: 14px; flex-wrap: wrap; }
+  .case-company { font-family: 'Manrope', sans-serif; font-size: 18px; font-weight: 800; }
+  .case-tagline { font-size: 13px; color: var(--muted); }
   .case-badge {
     font-size: 10px;
-    font-weight: 700;
-    letter-spacing: 0.08em;
+    font-weight: 800;
+    letter-spacing: .1em;
     text-transform: uppercase;
-    padding: 5px 12px;
-    border-radius: var(--radius-sm);
+    padding: 6px 12px;
+    border-radius: 999px;
     background: var(--accent-soft);
     color: var(--accent);
-    border: 1px solid rgba(200,168,106,0.2);
+    border: 1px solid rgba(198,164,106,.2);
   }
   .case-toggle {
-    font-size: 14px;
-    color: var(--gray);
-    transition: transform 0.3s;
-    width: 32px;
-    height: 32px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 50%;
-    background: var(--bg);
-    flex-shrink: 0;
+    width: 32px; height: 32px; border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    background: var(--bg); color: var(--muted);
+    transition: transform .3s ease;
   }
   .case-toggle.open { transform: rotate(180deg); }
   .case-body {
-    padding: 0 32px;
     max-height: 0;
     overflow: hidden;
-    transition: max-height 0.5s cubic-bezier(0.4,0,0.2,1), padding 0.5s;
+    padding: 0 30px;
+    transition: max-height .45s ease, padding .45s ease;
   }
-  .case-body.open {
-    padding: 0 32px 32px;
-    max-height: 1200px;
-  }
+  .case-body.open { max-height: 1200px; padding: 0 30px 30px; }
   .case-section-title {
+    margin: 22px 0 10px;
     font-family: 'Manrope', sans-serif;
     font-size: 11px;
-    font-weight: 700;
-    letter-spacing: 0.12em;
+    font-weight: 800;
+    letter-spacing: .12em;
     text-transform: uppercase;
     color: var(--accent);
-    margin: 24px 0 10px;
   }
-  .case-section-title:first-child { margin-top: 8px; }
-  .case-body p {
+  .case-body p, .case-body li {
+    color: var(--muted);
     font-size: 14px;
-    color: var(--gray);
-    line-height: 1.7;
-    margin-bottom: 8px;
-  }
-  .case-body ul {
-    list-style: none;
-    padding: 0;
-  }
-  .case-body li {
-    font-size: 14px;
-    color: var(--gray);
     line-height: 1.8;
-    padding-left: 20px;
-    position: relative;
   }
+  .case-body ul { list-style: none; margin-top: 6px; }
+  .case-body li { position: relative; padding-left: 18px; }
   .case-body li::before {
     content: '';
-    position: absolute;
-    left: 0; top: 10px;
-    width: 6px; height: 6px;
-    border-radius: 2px;
-    background: var(--accent);
+    position: absolute; left: 0; top: 10px;
+    width: 6px; height: 6px; border-radius: 2px; background: var(--accent);
   }
-  .case-results {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 8px;
-    margin: 16px 0;
-  }
+  .case-results { display: flex; flex-wrap: wrap; gap: 8px; margin: 16px 0 0; }
   .case-result {
-    padding: 6px 14px;
-    border-radius: var(--radius-sm);
-    font-size: 12px;
-    font-weight: 600;
-    background: rgba(46,139,87,0.1);
-    color: #5FBF8A;
-    border: 1px solid rgba(46,139,87,0.15);
     opacity: 0;
-    transform: scale(0.9);
-    transition: all 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
+    transform: scale(.96);
+    padding: 6px 12px;
+    border-radius: 999px;
+    background: rgba(46,139,87,.1);
+    color: #67C68A;
+    border: 1px solid rgba(46,139,87,.18);
+    font-size: 12px;
+    font-weight: 700;
+    transition: all .35s cubic-bezier(.34,1.56,.64,1);
   }
-  .case-result.visible {
-    opacity: 1;
-    transform: scale(1);
-  }
+  .case-result.visible { opacity: 1; transform: scale(1); }
   .case-proof {
-    font-size: 13px;
-    font-style: italic;
-    color: var(--gray-dim);
     margin-top: 16px;
     padding-top: 16px;
-    border-top: 1px solid var(--border);
-    line-height: 1.7;
+    border-top: 1px solid var(--line);
+    color: var(--muted-2);
+    font-size: 13px;
+    font-style: italic;
+    line-height: 1.8;
   }
 
   #leadership {
-    background: var(--surface);
-    border-top: 1px solid var(--border);
-    border-bottom: 1px solid var(--border);
     max-width: 100%;
-    padding: 120px 32px;
+    background: var(--surface);
+    border-top: 1px solid var(--line);
+    border-bottom: 1px solid var(--line);
   }
   .leadership-inner {
-    max-width: 1100px;
+    max-width: 1120px;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: 0.4fr 1fr;
-    gap: 64px;
+    grid-template-columns: .42fr 1fr;
+    gap: 60px;
     align-items: center;
   }
   .leadership-photo {
     width: 100%;
     max-width: 280px;
-    border-radius: var(--radius-lg);
-    border: 1px solid var(--border);
-    opacity: 0.85;
-    transition: var(--transition);
+    border-radius: var(--radius);
+    border: 1px solid var(--line);
+    opacity: .9;
   }
-  .leadership-photo:hover { opacity: 1; }
   .leadership-quote {
     font-family: 'Manrope', sans-serif;
-    font-size: 28px;
-    font-weight: 600;
-    line-height: 1.4;
-    margin-bottom: 24px;
-    font-style: italic;
+    font-size: 31px;
+    font-weight: 700;
+    line-height: 1.32;
+    margin-bottom: 22px;
   }
   .leadership-quote .accent { color: var(--accent); }
   .leadership-text {
+    color: var(--muted);
     font-size: 15px;
-    color: var(--gray);
-    line-height: 1.8;
+    line-height: 1.9;
     margin-bottom: 16px;
+    max-width: 760px;
   }
 
-  #contact { text-align: center; padding: 120px 32px; }
+  #contact { text-align: center; }
   .contact-title {
     font-family: 'Manrope', sans-serif;
-    font-size: 36px;
-    font-weight: 700;
-    margin-bottom: 16px;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 14px;
   }
-  .contact-subtitle {
-    font-size: 17px;
-    color: var(--gray);
-    margin-bottom: 48px;
-  }
+  .contact-subtitle { color: var(--muted); font-size: 17px; margin-bottom: 42px; }
   .contact-grid {
     display: flex;
     justify-content: center;
-    gap: 16px;
+    gap: 14px;
     flex-wrap: wrap;
-    max-width: 700px;
+    max-width: 780px;
     margin: 0 auto;
   }
   .contact-card {
     display: flex;
     align-items: center;
     gap: 12px;
-    padding: 16px 24px;
-    border-radius: var(--radius-md);
-    border: 1px solid var(--border);
+    padding: 15px 22px;
+    border-radius: 999px;
+    border: 1px solid var(--line);
     background: var(--surface);
+    color: var(--text);
     text-decoration: none;
-    color: var(--white);
     font-size: 14px;
-    font-weight: 500;
+    font-weight: 600;
     transition: var(--transition);
   }
-  .contact-card:hover {
-    border-color: var(--accent);
-    transform: translateY(-2px);
-    box-shadow: var(--shadow-glow);
-  }
-  .contact-card svg {
-    width: 20px;
-    height: 20px;
-    flex-shrink: 0;
-    color: var(--accent);
-  }
+  .contact-card:hover { border-color: var(--accent); transform: translateY(-2px); }
+  .contact-card svg { width: 18px; height: 18px; color: var(--accent); }
 
   footer {
     text-align: center;
-    padding: 48px 32px;
-    border-top: 1px solid var(--border);
-    color: var(--gray-dim);
+    padding: 46px 32px;
+    border-top: 1px solid var(--line);
+    color: var(--muted-2);
     font-size: 13px;
   }
-  footer a { color: var(--gray); text-decoration: none; transition: color 0.3s; }
+  footer a { color: var(--muted); text-decoration: none; }
   footer a:hover { color: var(--accent); }
 
   .mobile-cta {
     display: none;
     position: fixed;
-    bottom: 0; left: 0; right: 0;
-    padding: 12px 20px;
-    background: rgba(7,17,29,0.95);
-    backdrop-filter: blur(12px);
-    -webkit-backdrop-filter: blur(12px);
-    border-top: 1px solid var(--border);
-    justify-content: center;
-    gap: 12px;
+    left: 0; right: 0; bottom: 0;
     z-index: 999;
+    padding: 12px 18px;
+    background: rgba(6,16,27,.95);
+    backdrop-filter: blur(12px);
+    border-top: 1px solid var(--line);
+    justify-content: center;
+    gap: 10px;
   }
   .mobile-cta a {
-    color: var(--accent);
-    font-family: 'Manrope', sans-serif;
-    font-size: 12px;
-    font-weight: 700;
-    text-decoration: none;
-    padding: 10px 20px;
+    padding: 10px 16px;
+    border-radius: 999px;
     border: 1px solid var(--accent);
-    border-radius: var(--radius-sm);
+    color: var(--accent);
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 800;
     text-transform: uppercase;
-    letter-spacing: 0.04em;
-    transition: var(--transition);
+    letter-spacing: .08em;
   }
-  .mobile-cta a:hover {
-    background: var(--accent);
-    color: var(--bg);
-  }
+  .mobile-cta a:hover { background: var(--accent); color: var(--bg); }
 
   @media (max-width: 900px) {
-    .hero-grid { grid-template-columns: 1fr; text-align: center; gap: 48px; }
-    .hero-name { font-size: 40px; }
-    .hero-mantra { margin: 0 auto 32px; text-align: left; }
+    .hero-grid, .leadership-inner { grid-template-columns: 1fr; }
+    .hero-grid { text-align: center; gap: 42px; }
+    .hero-mantra { margin-left: auto; margin-right: auto; text-align: left; }
     .hero-cta-group { justify-content: center; }
-    .hero-photo { width: 280px; height: 280px; }
-    .hero-photo-halo { width: 320px; height: 320px; }
-    .impact-grid { grid-template-columns: repeat(2, 1fr); }
-    .expertise-grid { grid-template-columns: repeat(2, 1fr); }
+    .hero-name { font-size: 42px; }
+    .hero-photo { width: 300px; height: 300px; }
+    .hero-photo-halo { width: 340px; height: 340px; }
+    .impact-grid, .expertise-grid { grid-template-columns: repeat(2, 1fr); }
     .recherche-grid { grid-template-columns: 1fr; }
-    .testimonial-card { flex: 0 0 340px; }
-    .leadership-inner { grid-template-columns: 1fr; text-align: center; }
-    .leadership-photo { margin: 0 auto; }
-    .section-title { font-size: 28px; }
-    .conviction-quote { font-size: 26px; }
+    .testimonial-card { flex-basis: 360px; }
+    .section-title, .conviction-quote { font-size: 30px; }
     nav { padding: 0 20px; }
-    .nav-links { display: none; }
-    .nav-cta { display: none; }
+    .nav-links, .nav-cta { display: none; }
     .nav-mobile-btn { display: block; }
-    section { padding: 80px 20px; }
-    #impact, #recherche, #leadership { padding: 80px 20px; }
-    #temoignages { padding: 80px 0; }
+    section, #impact, #recherche, #leadership, #contact { padding-left: 20px; padding-right: 20px; }
+    #temoignages { padding-left: 0; padding-right: 0; }
     .mobile-cta { display: flex; }
     footer { padding-bottom: 80px; }
   }
   @media (max-width: 560px) {
-    .hero-name { font-size: 32px; }
+    .hero-name { font-size: 34px; }
     .hero-title { font-size: 16px; }
     .hero-mantra { font-size: 18px; }
-    .impact-grid { grid-template-columns: 1fr; }
-    .expertise-grid { grid-template-columns: 1fr; }
-    .case-header { padding: 18px 20px; }
-    .case-body.open { padding: 0 20px 24px; }
+    .impact-grid, .expertise-grid { grid-template-columns: 1fr; }
+    .contact-title { font-size: 30px; }
+    .testimonial-card { flex-basis: 305px; padding: 28px 24px; }
+    .case-header { padding: 18px 18px; }
+    .case-body.open { padding: 0 18px 24px; }
     .timeline { padding-left: 28px; }
-    .timeline-dot { left: -28px; width: 12px; height: 12px; }
-    .section-title { font-size: 24px; }
-    .contact-title { font-size: 28px; }
-    .testimonial-card { flex: 0 0 300px; padding: 28px 24px; }
+    .timeline-dot { left: -28px; }
   }
 </style>
 </head>
@@ -1035,24 +771,24 @@
     <li><a href="#parcours">Parcours</a></li>
     <li><a href="#expertise">Expertise</a></li>
     <li><a href="#recherche">Recherche</a></li>
-    <li><a href="#temoignages">Témoignages</a></li>
+    <li><a href="#temoignages">Références</a></li>
     <li><a href="#realisations">Réalisations</a></li>
     <li><a href="#leadership">Leadership</a></li>
     <li><a href="#contact">Contact</a></li>
   </ul>
-  <a href="#contact" class="nav-cta">Me contacter</a>
+  <a href="#contact" class="nav-cta">Échanger</a>
   <button class="nav-mobile-btn" onclick="toggleMobileMenu()">&#9776;</button>
 </nav>
 
 <section id="hero">
   <div class="hero-grid">
     <div class="reveal">
-      <div class="hero-label">Directeur Général Adjoint</div>
+      <div class="hero-label">Dirigeant opérationnel</div>
       <h1 class="hero-name">Axel<br>Raffenaud</h1>
-      <p class="hero-title">Transformation • Croissance • Gouvernance</p>
+      <p class="hero-title">Leadership • Transformation • Création de valeur</p>
       <p class="hero-mantra" id="typewriter"></p>
       <div class="hero-cta-group">
-        <a href="#realisations" class="btn btn-primary">Découvrir mon parcours</a>
+        <a href="#realisations" class="btn btn-primary">Voir les réalisations</a>
         <a href="./cv_axel_raffenaud.pdf" class="btn btn-secondary" download>Télécharger le CV</a>
       </div>
     </div>
@@ -1071,8 +807,8 @@
   <div class="impact-grid">
     <div class="impact-item reveal">
       <div class="impact-number" data-target="20" data-suffix="+">0</div>
-      <div class="impact-label">Années d'expérience</div>
-      <div class="impact-sublabel">Direction & management</div>
+      <div class="impact-label">Années d’expérience</div>
+      <div class="impact-sublabel">Direction et management</div>
     </div>
     <div class="impact-item reveal reveal-delay-1">
       <div class="impact-number" data-target="275" data-suffix="%" data-prefix="+">0</div>
@@ -1087,130 +823,130 @@
     <div class="impact-item reveal reveal-delay-3">
       <div class="impact-number" data-target="74">0</div>
       <div class="impact-label">Partenariats stratégiques</div>
-      <div class="impact-sublabel">États, Microsoft, intégrateurs, éditeurs SIRH/CRM/ERP</div>
+      <div class="impact-sublabel">État, Microsoft, intégrateurs, éditeurs</div>
     </div>
   </div>
 </section>
 
 <section id="conviction">
   <div class="reveal">
-    <div class="section-label">Une conviction</div>
-    <h2 class="conviction-quote">La croissance n'est jamais le fruit du <span class="accent">hasard</span>.</h2>
+    <div class="section-label">Conviction</div>
+    <h2 class="conviction-quote">La performance durable n’est jamais le fruit du <span class="accent">hasard</span>.</h2>
     <p class="conviction-text">
-      Elle résulte d'une stratégie claire, d'une exécution disciplinée et d'équipes engagées.
-      Depuis plus de 20 ans, j'accompagne des PME, ETI et éditeurs SaaS dans leurs phases de transformation et de croissance — en structurant les organisations, en fédérant les talents et en pilotant par les résultats.
+      Elle résulte d’une vision claire, d’une exécution rigoureuse et d’un collectif aligné.
+      Depuis plus de 20 ans, j’accompagne des PME, des ETI et des éditeurs SaaS dans leurs phases de transformation, de structuration et d’accélération.
     </p>
   </div>
 </section>
 
 <section id="parcours">
   <div class="reveal">
-    <div class="section-label">Mon parcours</div>
-    <h2 class="section-title">De la vente à la direction générale</h2>
+    <div class="section-label">Parcours</div>
+    <h2 class="section-title">Un parcours construit entre développement, transformation et gouvernance</h2>
   </div>
   <div class="timeline">
     <div class="timeline-item" data-delay="0">
       <div class="timeline-dot"></div>
       <div class="timeline-date">2000 — 2009</div>
-      <div class="timeline-role">Débuts & montée en puissance commerciale</div>
-      <div class="timeline-company">Cyfaly • Visiativ • Konica Minolta • Caisse d'Épargne</div>
-      <div class="timeline-desc">Recrutement & management de 120 commerciaux, détection de 320 projets, levée de 150K€. Apprentissage du terrain et de la structuration des forces de vente.</div>
+      <div class="timeline-role">Fondations commerciales</div>
+      <div class="timeline-company">Cyfaly • Visiativ • Konica Minolta • Caisse d’Épargne</div>
+      <div class="timeline-desc">Apprentissage du terrain, structuration commerciale et montée en responsabilité. Recrutement et management d’équipes commerciales, détection d’opportunités et premiers leviers de croissance.</div>
     </div>
     <div class="timeline-item" data-delay="1">
       <div class="timeline-dot"></div>
       <div class="timeline-date">2010 — 2015</div>
-      <div class="timeline-role">Consultant & entrepreneur</div>
+      <div class="timeline-role">Conseil et entrepreneuriat</div>
       <div class="timeline-company">Axel Raffenaud Consulting Group</div>
-      <div class="timeline-desc">Accompagnement de 24 entreprises en croissance et transformation. 2M€ de financements levés. Implantation France & international.</div>
+      <div class="timeline-desc">Accompagnement d’entreprises en croissance et en transformation. Structuration d’environnements commerciaux, levée de financements et déploiement en France comme à l’international.</div>
     </div>
     <div class="timeline-item" data-delay="2">
       <div class="timeline-dot"></div>
       <div class="timeline-date">2014 — 2017</div>
-      <div class="timeline-role">Directeur du Développement Groupe</div>
+      <div class="timeline-role">Direction du développement</div>
       <div class="timeline-company">Cohésion International — Conseil QVCT & RPS</div>
-      <div class="timeline-desc">P&L 5,5M€ piloté avec +12% de croissance. Transformation franchise → coopérative. Coordination de 70 consultants.</div>
+      <div class="timeline-desc">Pilotage du développement d’un ensemble de 5,5M€ de P&L, conduite d’une transformation de modèle et coordination d’un réseau de consultants.</div>
     </div>
     <div class="timeline-item" data-delay="3">
       <div class="timeline-dot"></div>
       <div class="timeline-date">2018 — 2022</div>
-      <div class="timeline-role">Directeur Commercial — Marketing & Service Client — Associé</div>
-      <div class="timeline-company">Eazylang — Éditeur SaaS Plateforme d'intermédiation Traduction</div>
-      <div class="timeline-desc">350 clients en 24 mois, 60 partenariats en 18 mois. Pivot économique & technique pendant la crise Covid. Référencement France Relance.</div>
+      <div class="timeline-role">Direction commerciale, marketing et service client</div>
+      <div class="timeline-company">Eazylang — Éditeur SaaS</div>
+      <div class="timeline-desc">Construction d’un Go-to-Market, développement d’un portefeuille clients et partenaires, adaptation du modèle pendant la crise Covid, et participation au comité de direction.</div>
     </div>
     <div class="timeline-item" data-delay="4">
       <div class="timeline-dot"></div>
       <div class="timeline-date">2022 — 2025</div>
-      <div class="timeline-role">Directeur Commercial — Marketing & Service Client Europe</div>
+      <div class="timeline-role">Direction commerciale Europe</div>
       <div class="timeline-company">Aidaxis — Digital Adoption Platform SaaS B2B</div>
-      <div class="timeline-desc">ARR ×4 en 3 ans (+275%). Pipeline commercial ×4. 14 partenariats stratégiques. Membre du comité de direction.</div>
+      <div class="timeline-desc">Accélération de la croissance, structuration commerciale, développement de partenariats stratégiques et pilotage des performances aux côtés du comité de direction.</div>
     </div>
     <div class="timeline-item" data-delay="5">
       <div class="timeline-dot current"></div>
       <div class="timeline-date">2025</div>
-      <div class="timeline-role">Directeur Commercial & Développement</div>
-      <div class="timeline-company">IT Spirit — ESN & intégrateur ERP Cloud (Oracle & SAP)</div>
-      <div class="timeline-desc">Structuration commerciale, choix de la stack technologique, développement des partenariats. Certifications Oracle NetSuite.</div>
+      <div class="timeline-role">Direction commerciale et développement</div>
+      <div class="timeline-company">IT Spirit — ESN & intégrateur ERP Cloud</div>
+      <div class="timeline-desc">Structuration commerciale, choix d’outils, développement de partenariats et accompagnement de la stratégie de croissance.</div>
     </div>
     <div class="timeline-item" data-delay="6">
       <div class="timeline-dot current"></div>
-      <div class="timeline-date">Aujourd'hui</div>
-      <div class="timeline-role">En recherche de DGA / CRO / Direction Générale</div>
+      <div class="timeline-date">Aujourd’hui</div>
+      <div class="timeline-role">Recherche d’un mandat de direction</div>
       <div class="timeline-company">PME / ETI ambitieuse — France & international</div>
-      <div class="timeline-desc">Ouvert au CDI comme aux prises de participation (LBO, MBI, MBO). Sensible aux projets à impact positif.</div>
+      <div class="timeline-desc">Ouvert à un rôle de DGA, CRO ou Direction Générale, avec une sensibilité particulière aux projets de transformation, de croissance et de prise de participation.</div>
     </div>
   </div>
 </section>
 
 <section id="expertise">
   <div class="reveal">
-    <div class="section-label">Domaines d'expertise</div>
-    <h2 class="section-title">Ce que je construis</h2>
+    <div class="section-label">Expertise</div>
+    <h2 class="section-title">Les leviers que je mobilise pour créer de la valeur</h2>
   </div>
   <div class="expertise-grid">
     <div class="expertise-card reveal">
       <div class="expertise-icon">L</div>
       <div class="expertise-title">Leadership</div>
-      <div class="expertise-desc">Management d'équipes jusqu'à 120 personnes, animation de comités de direction, conduite du changement.</div>
+      <div class="expertise-desc">Management d’équipes, animation de comités de direction, conduite du changement et alignement des parties prenantes.</div>
     </div>
     <div class="expertise-card reveal reveal-delay-1">
-      <div class="expertise-icon">G</div>
-      <div class="expertise-title">Go-to-Market</div>
-      <div class="expertise-desc">Construction de forces de vente from scratch, stratégie d'acquisition, segmentation ICP/STP.</div>
+      <div class="expertise-icon">M</div>
+      <div class="expertise-title">Développement commercial</div>
+      <div class="expertise-desc">Structuration des forces de vente, stratégie d’acquisition, segmentation des marchés et montée en efficacité commerciale.</div>
     </div>
     <div class="expertise-card reveal reveal-delay-2">
       <div class="expertise-icon">T</div>
       <div class="expertise-title">Transformation</div>
-      <div class="expertise-desc">3 transformations organisationnelles pilotées, pivot business model, refonte de processus.</div>
+      <div class="expertise-desc">Conduite de changements organisationnels, évolution des modèles et refonte de processus pour soutenir la croissance.</div>
     </div>
     <div class="expertise-card reveal">
       <div class="expertise-icon">P</div>
-      <div class="expertise-title">P&L & Gouvernance</div>
-      <div class="expertise-desc">Pilotage de P&L jusqu'à 5,5M€, business plan, gouvernance, arbitrages de direction générale.</div>
+      <div class="expertise-title">Pilotage de la performance</div>
+      <div class="expertise-desc">Suivi de P&L, arbitrages de direction générale, business planning et discipline d’exécution.</div>
     </div>
     <div class="expertise-card reveal reveal-delay-1">
-      <div class="expertise-icon">X</div>
+      <div class="expertise-icon">A</div>
       <div class="expertise-title">Partenariats</div>
-      <div class="expertise-desc">74 partenariats stratégiques développés, co-selling, channel management, alliances écosystème.</div>
+      <div class="expertise-desc">Développement d’alliances, co-selling, écosystèmes de distribution et relations stratégiques.</div>
     </div>
     <div class="expertise-card reveal reveal-delay-2">
       <div class="expertise-icon">I</div>
       <div class="expertise-title">International</div>
-      <div class="expertise-desc">Expérience France, Belgique, Luxembourg, Suisse, Canada, Pays de l'Est, Irlande. Anglais C1.</div>
+      <div class="expertise-desc">Expérience multi-pays et capacité à adapter le discours, les pratiques et les réseaux à différents marchés.</div>
     </div>
     <div class="expertise-card reveal">
       <div class="expertise-icon">S</div>
-      <div class="expertise-title">SaaS & Tech</div>
-      <div class="expertise-desc">Expertise SaaS B2B, CRM (Salesforce, HubSpot), ERP Cloud (NetSuite, SAP), IA & data.</div>
+      <div class="expertise-title">SaaS et technologie</div>
+      <div class="expertise-desc">Environnements SaaS B2B, CRM, ERP Cloud, IA et outils de pilotage commercial et marketing.</div>
     </div>
     <div class="expertise-card reveal reveal-delay-1">
       <div class="expertise-icon">R</div>
-      <div class="expertise-title">RevOps</div>
-      <div class="expertise-desc">Optimisation CAC, payback, CLTV, churn. Structuration CRM, sales enablement, automation.</div>
+      <div class="expertise-title">Excellence commerciale</div>
+      <div class="expertise-desc">Optimisation du CAC, de la conversion, du cycle de vente et des dispositifs de génération de revenus.</div>
     </div>
     <div class="expertise-card reveal reveal-delay-2">
       <div class="expertise-icon">C</div>
       <div class="expertise-title">Croissance externe</div>
-      <div class="expertise-desc">Ouvert aux LBO, MBI, MBO. Expérience en structuration de build-up et intégration d'acquisitions.</div>
+      <div class="expertise-desc">Ouverture aux build-up, aux opérations de reprise et aux stratégies de consolidation.</div>
     </div>
   </div>
 </section>
@@ -1218,45 +954,45 @@
 <section id="recherche">
   <div class="recherche-inner">
     <div class="reveal">
-      <div class="section-label">Ce que je recherche</div>
-      <h2 class="section-title">Ma prochaine mission</h2>
-      <p class="section-subtitle">Directeur Général Adjoint au sein d'une PME ou ETI ambitieuse. Ouvert aux opportunités de prise de participation.</p>
+      <div class="section-label">Positionnement recherché</div>
+      <h2 class="section-title">Le type de mandat que je souhaite porter</h2>
+      <p class="section-subtitle">Un rôle de direction au service d’une PME ou d’une ETI ambitieuse, avec une logique de création de valeur, de structuration et d’exécution.</p>
     </div>
     <div class="recherche-grid">
       <div class="recherche-card reveal">
         <div class="recherche-icon">01</div>
-        <h3>Poste visé</h3>
+        <h3>Fonctions visées</h3>
         <ul>
-          <li>Directeur Général Adjoint (DGA)</li>
-          <li>Chief Revenue Officer (CRO)</li>
+          <li>Directeur Général Adjoint</li>
+          <li>Chief Revenue Officer</li>
           <li>Directeur Commercial Exécutif</li>
           <li>Direction Générale</li>
         </ul>
-        <div class="recherche-highlight">Leadership opérationnel & stratégique</div>
+        <div class="recherche-highlight">Leadership opérationnel et stratégique</div>
       </div>
       <div class="recherche-card reveal reveal-delay-1">
         <div class="recherche-icon">02</div>
-        <h3>Zones géographiques</h3>
+        <h3>Périmètre géographique</h3>
         <ul>
           <li>France</li>
           <li>Belgique, Suisse, Luxembourg</li>
-          <li>Québec, Canada</li>
-          <li>Roumanie, Serbie, Irlande</li>
-          <li>Tous pays francophones & anglophones du Nord</li>
+          <li>Canada francophone</li>
+          <li>Irlande, Roumanie, Serbie</li>
+          <li>Ouverture internationale selon le projet</li>
         </ul>
-        <div class="recherche-highlight">Mobile & adaptable</div>
+        <div class="recherche-highlight">Mobilité et adaptabilité</div>
       </div>
       <div class="recherche-card reveal reveal-delay-2">
         <div class="recherche-icon">03</div>
-        <h3>Statut & Secteurs</h3>
+        <h3>Cadre d’intervention</h3>
         <ul>
           <li>CDI</li>
-          <li>Prise de participation (LBO, MBI, MBO)</li>
-          <li>Ouvert à tous les secteurs</li>
-          <li>Sensible aux projets à impact positif</li>
-          <li>Notamment environnementaux</li>
+          <li>Prise de participation</li>
+          <li>LBO, MBI, MBO</li>
+          <li>Projets à impact positif</li>
+          <li>Environnements de transformation</li>
         </ul>
-        <div class="recherche-highlight">Ouvert & flexible</div>
+        <div class="recherche-highlight">Ouverture et exigence</div>
       </div>
     </div>
   </div>
@@ -1264,106 +1000,72 @@
 
 <section id="temoignages">
   <div class="temoignages-header reveal">
-    <div class="section-label">Témoignages</div>
-    <h2 class="section-title">Ce que disent ceux qui m'ont côtoyé</h2>
-    <p class="section-subtitle">Recommandations LinkedIn de collaborateurs, partenaires et clients.</p>
+    <div class="section-label">Références</div>
+    <h2 class="section-title">Ce que disent mes partenaires et collaborateurs</h2>
+    <p class="section-subtitle">Sélection de recommandations professionnelles issues de parcours partagés avec des dirigeants, clients et partenaires.</p>
   </div>
-  <div class="carousel-wrapper">
-    <div class="carousel-track" id="carouselTrack">
-      <div class="testimonial-card">
-        <p class="testimonial-text">
-          Axel a joué un rôle décisif dans l'orientation commerciale d'Eazylang en s'appuyant sur l'une de ses compétences clés :
-          une capacité hors pair pour les relations humaines et le réseautage. Dans un métier de service et à une époque qui voit
-          se déshumaniser les contacts, Axel détient une valeur individuelle extrêmement précieuse pour une organisation et notamment
-          dans la conduite d'une stratégie de développement.
-        </p>
-        <div class="testimonial-author">
-          <a href="https://www.linkedin.com/in/eric-lavost/" target="_blank" class="testimonial-name">Eric Lavost</a>
-          <p class="testimonial-role">Ex Président & Fondateur d'EAZYLANG</p>
-          <span class="testimonial-relation">Manager direct</span>
-        </div>
-      </div>
-      <div class="testimonial-card">
-        <p class="testimonial-text">
-          J'ai eu la chance de travailler avec Axel pendant près de 4 ans chez Aidaxis, puis chez IT Spirit.
-          Au-delà de ses compétences techniques, c'est l'homme derrière le manager qui distingue vraiment Axel.
-          Son relationnel est très bon : il crée naturellement la confiance, aussi bien avec ses clients qu'avec ses équipes.
-          Il est d'une loyauté sans faille et toujours sincèrement à l'écoute. Ces qualités humaines, rares à ce niveau de responsabilité,
-          font de lui un pilier sur lequel on peut vraiment compter.
-        </p>
-        <div class="testimonial-author">
-          <a href="https://www.linkedin.com/in/nicolasbravin/" target="_blank" class="testimonial-name">Nicolas Bravin</a>
-          <p class="testimonial-role">CEO IT Spirit & Ex CEO AIDAXIS</p>
-          <span class="testimonial-relation">Manager direct</span>
-        </div>
-      </div>
-      <div class="testimonial-card">
-        <p class="testimonial-text">
-          J'ai travaillé avec Axel en tant que partenaire alors qu'il commercialisait une solution d'adoption digitale.
-          Axel est un véritable cadre exécutif senior, centré sur le business et la performance, avec un excellent relationnel.
-          Son expertise du marché B2B et des dynamiques de transformation digitale ne sont plus à prouver.
-        </p>
-        <div class="testimonial-author">
-          <a href="https://www.linkedin.com/in/flaigmathieu/" target="_blank" class="testimonial-name">Mathieu Flaig</a>
-          <p class="testimonial-role">Directeur Conseil RH & Transformation Numérique — SQORUS</p>
-          <span class="testimonial-relation">Partenaire business</span>
-        </div>
-      </div>
-      <div class="testimonial-card">
-        <p class="testimonial-text">
-          I worked with Axel as a professional services supplier when he was Sales and Marketing Director of EAZYLANG.
-          I really enjoyed our productive interactions and the output matched our expectations in terms of quality and compliance
-          with the timeline and budget. Beyond his expertise, I really appreciated his willingness to go the extra mile
-          to find the best solution for his customers.
-        </p>
-        <div class="testimonial-author">
-          <a href="https://www.linkedin.com/in/menezisabelle/?locale=fr" target="_blank" class="testimonial-name">Isabelle Menez</a>
-          <p class="testimonial-role">Ex OSACRO — Cliente EAZYLANG</p>
-          <span class="testimonial-relation">Cliente</span>
-        </div>
-      </div>
-      <div class="testimonial-card">
-        <p class="testimonial-text">
-          Au-delà de ses compétences, Axel dispose d'une belle vision stratégique d'entreprise, une forte curiosité,
-          une compréhension rapide de n'importe quel business sans compter sur ses compétences en business development.
-          Aussi, Axel est un connecteur né. Il maîtrise l'art des relations commerciales et partenariales,
-          et sait mobiliser son réseau au service de projets de transformation ambitieux. Un profil de haut niveau
-          avec une grande capacité d'écoute que je recommande sans hésiter pour des fonctions de direction.
-        </p>
-        <div class="testimonial-author">
-          <a href="https://www.linkedin.com/in/damienarmente/" target="_blank" class="testimonial-name">Damien Armente</a>
-          <p class="testimonial-role">CEO SuperConnectr & Fondateur Lecosysteme France</p>
-          <span class="testimonial-relation">Partenaire business & réseau</span>
-        </div>
-      </div>
-      <div class="testimonial-card">
-        <p class="testimonial-text">
-          Axel m'a accompagné sur la fin de mon alternance en Marketing et Communication puis durant 2 ans en CDI.
-          Tout au long de cette période, il a été à l'écoute, disponible et prêt à confronter ses idées pour avancer.
-          C'est un Directeur Marketing qui sait mettre en confiance, en créant un cadre où l'on ose proposer, tester, se tromper et progresser.
-          J'ai particulièrement apprécié sa capacité à entendre mes idées, à les challenger et surtout à leur donner de la visibilité
-          en les mettant en application.
-        </p>
-        <div class="testimonial-author">
-          <a href="https://www.linkedin.com/in/marina-terdjimi-031a3611a/" target="_blank" class="testimonial-name">Marina Terdjimi</a>
-          <p class="testimonial-role">Ex Responsable Marketing & Communication IT Spirit & AIDAXIS</p>
-          <span class="testimonial-relation">Collaboratrice directe</span>
-        </div>
+  <div class="carousel-track" id="carouselTrack">
+    <div class="testimonial-card">
+      <p class="testimonial-text">Axel a joué un rôle décisif dans l’orientation commerciale d’Eazylang grâce à sa capacité relationnelle et à son sens du réseau. Dans un métier de service, cette qualité fait clairement la différence.</p>
+      <div class="testimonial-author">
+        <a href="https://www.linkedin.com/in/eric-lavost/" target="_blank" class="testimonial-name">Eric Lavost</a>
+        <p class="testimonial-role">Ex Président & Fondateur d’Eazylang</p>
+        <span class="testimonial-relation">Manager direct</span>
       </div>
     </div>
-    <div class="carousel-nav">
-      <button class="carousel-btn" onclick="scrollCarousel(-1)">&#10094;</button>
-      <button class="carousel-btn" onclick="scrollCarousel(1)">&#10095;</button>
+    <div class="testimonial-card">
+      <p class="testimonial-text">Au-delà de ses compétences, Axel se distingue par sa loyauté, sa capacité à créer la confiance et son sens de l’écoute. Ce sont des qualités rares à ce niveau de responsabilité.</p>
+      <div class="testimonial-author">
+        <a href="https://www.linkedin.com/in/nicolasbravin/" target="_blank" class="testimonial-name">Nicolas Bravin</a>
+        <p class="testimonial-role">CEO IT Spirit & ex CEO Aidaxis</p>
+        <span class="testimonial-relation">Manager direct</span>
+      </div>
     </div>
-    <div class="carousel-dots" id="carouselDots"></div>
+    <div class="testimonial-card">
+      <p class="testimonial-text">Axel est un cadre exécutif senior, centré sur le business et la performance, avec une compréhension solide des dynamiques B2B et de la transformation digitale.</p>
+      <div class="testimonial-author">
+        <a href="https://www.linkedin.com/in/flaigmathieu/" target="_blank" class="testimonial-name">Mathieu Flaig</a>
+        <p class="testimonial-role">Directeur Conseil RH & Transformation Numérique — SQORUS</p>
+        <span class="testimonial-relation">Partenaire business</span>
+      </div>
+    </div>
+    <div class="testimonial-card">
+      <p class="testimonial-text">J’ai apprécié la qualité des échanges, la précision des attentes et la volonté d’aller au meilleur résultat possible pour les clients.</p>
+      <div class="testimonial-author">
+        <a href="https://www.linkedin.com/in/menezisabelle/?locale=fr" target="_blank" class="testimonial-name">Isabelle Menez</a>
+        <p class="testimonial-role">Ex OSACRO — Cliente Eazylang</p>
+        <span class="testimonial-relation">Cliente</span>
+      </div>
+    </div>
+    <div class="testimonial-card">
+      <p class="testimonial-text">Axel dispose d’une vision stratégique, d’une forte curiosité et d’une capacité à mobiliser son réseau au service de projets de transformation ambitieux.</p>
+      <div class="testimonial-author">
+        <a href="https://www.linkedin.com/in/damienarmente/" target="_blank" class="testimonial-name">Damien Armente</a>
+        <p class="testimonial-role">CEO SuperConnectr & Fondateur Lecosysteme France</p>
+        <span class="testimonial-relation">Partenaire réseau</span>
+      </div>
+    </div>
+    <div class="testimonial-card">
+      <p class="testimonial-text">Il sait créer un cadre de confiance, challenger les idées et donner de la visibilité aux initiatives. Une posture managériale très appréciable.</p>
+      <div class="testimonial-author">
+        <a href="https://www.linkedin.com/in/marina-terdjimi-031a3611a/" target="_blank" class="testimonial-name">Marina Terdjimi</a>
+        <p class="testimonial-role">Ex Responsable Marketing & Communication IT Spirit & Aidaxis</p>
+        <span class="testimonial-relation">Collaboratrice directe</span>
+      </div>
+    </div>
   </div>
+  <div class="carousel-nav">
+    <button class="carousel-btn" onclick="scrollCarousel(-1)">&#10094;</button>
+    <button class="carousel-btn" onclick="scrollCarousel(1)">&#10095;</button>
+  </div>
+  <div class="carousel-dots" id="carouselDots"></div>
 </section>
 
 <section id="realisations">
   <div class="reveal">
-    <div class="section-label">Études de cas</div>
-    <h2 class="section-title">Ce que j'ai construit</h2>
-    <p class="section-subtitle" style="margin-bottom:48px;">Trois missions qui illustrent la capacité à scaler, transformer et diriger.</p>
+    <div class="section-label">Réalisations</div>
+    <h2 class="section-title">Trois contextes, une même exigence d’exécution</h2>
+    <p class="section-subtitle" style="margin-bottom:48px;">Des missions qui illustrent une capacité à structurer, accélérer et transformer dans des environnements exigeants.</p>
   </div>
 
   <div class="case-study reveal">
@@ -1373,34 +1075,32 @@
           <div class="case-company">EAZYLANG</div>
           <div class="case-tagline">Éditeur SaaS — Gestion de la traduction</div>
         </div>
-        <span class="case-badge">Étude de cas phare</span>
+        <span class="case-badge">Cas de référence</span>
       </div>
       <div class="case-toggle">&#9660;</div>
     </div>
     <div class="case-body">
       <div class="case-section-title">Contexte</div>
-      <p>Éditeur SaaS en phase de structuration commerciale. Marché B2B concurrentiel. Besoin de scaler rapidement avec des ressources limitées.</p>
+      <p>Éditeur SaaS en phase de structuration commerciale, évoluant sur un marché B2B compétitif et dans un cadre de ressources limitées.</p>
       <div class="case-section-title">Mission</div>
-      <p>Directeur Commercial, Marketing & Service Client — Membre du comité de direction. Construction de la stratégie de développement clients et partenaires.</p>
+      <p>Direction commerciale, marketing et service client, avec participation au comité de direction et pilotage de la stratégie de développement.</p>
       <div class="case-section-title">Actions clés</div>
       <ul>
-        <li>Construction de la stratégie clients directs et partenaires (segmentation STP, définition ICP)</li>
-        <li>Déploiement CRM, automation marketing et pilotage commercial</li>
-        <li>Développement de 60 partenariats stratégiques en 18 mois</li>
-        <li>Pivot du modèle économique et du pricing pendant la crise Covid-19</li>
-        <li>Obtention du référencement France Relance — Plateforme Traduction État</li>
+        <li>Construction d’un dispositif clients directs et partenaires.</li>
+        <li>Déploiement d’outils CRM et de marketing automation.</li>
+        <li>Développement de 60 partenariats en 18 mois.</li>
+        <li>Adaptation du pricing et du modèle économique pendant la crise Covid-19.</li>
+        <li>Obtention du référencement France Relance.</li>
       </ul>
       <div class="case-section-title">Résultats</div>
       <div class="case-results">
         <span class="case-result">350 clients directs en 24 mois</span>
-        <span class="case-result">22 000 traducteurs/agences intégrés</span>
+        <span class="case-result">22 000 traducteurs et agences intégrés</span>
         <span class="case-result">60 partenariats stratégiques</span>
-        <span class="case-result">Modèle économique pérennisé</span>
+        <span class="case-result">Modèle pérennisé</span>
         <span class="case-result">8 collaborateurs encadrés</span>
       </div>
-      <div class="case-proof">
-        Ce que cela démontre : capacité à construire un Go-to-Market complet from scratch, fédérer un écosystème de partenaires, et pivoter une stratégie commerciale en temps de crise — tout en gardant l'œil sur les chiffres et les équipes.
-      </div>
+      <div class="case-proof">Capacité à construire un dispositif complet de mise sur le marché, à fédérer un écosystème de partenaires et à faire évoluer une stratégie commerciale dans un contexte de crise.</div>
     </div>
   </div>
 
@@ -1411,26 +1111,26 @@
           <div class="case-company">AIDAXIS</div>
           <div class="case-tagline">Digital Adoption Platform — SaaS B2B</div>
         </div>
-        <span class="case-badge">Scaler un SaaS</span>
+        <span class="case-badge">Accélération SaaS</span>
       </div>
       <div class="case-toggle">&#9660;</div>
     </div>
     <div class="case-body">
       <div class="case-section-title">Contexte</div>
-      <p>SaaS B2B à 200K€ ARR. Besoin de structuration commerciale, de croissance et de professionnalisation de la force de vente.</p>
+      <p>SaaS B2B à 200K€ d’ARR, avec un besoin de structuration commerciale et de professionnalisation de la force de vente.</p>
       <div class="case-section-title">Mission</div>
-      <p>Directeur Commercial, Marketing & Service Client Europe — Membre du comité de direction. Définition et exécution de la stratégie commerciale.</p>
+      <p>Direction commerciale Europe, marketing et service client, avec contribution active au comité de direction.</p>
       <div class="case-section-title">Actions clés</div>
       <ul>
-        <li>Stratégie commerciale Europe avec plans de croissance ARR/MRR</li>
-        <li>Structuration CRM, sales enablement et pilotage performance</li>
-        <li>14 partenariats stratégiques (Microsoft, éditeurs CRM/ERP, intégrateurs)</li>
-        <li>Optimisation du CAC et de la payback period</li>
+        <li>Définition et exécution d’un plan de croissance Europe.</li>
+        <li>Structuration CRM, sales enablement et pilotage de la performance.</li>
+        <li>Développement de 14 partenariats stratégiques.</li>
+        <li>Optimisation du CAC et de la payback period.</li>
       </ul>
       <div class="case-section-title">Résultats</div>
       <div class="case-results">
         <span class="case-result">ARR 200K€ → 750K€ en 3 ans (+275%)</span>
-        <span class="case-result">Pipeline commercial ×4</span>
+        <span class="case-result">Pipeline commercial x4</span>
         <span class="case-result">14 partenariats stratégiques</span>
         <span class="case-result">10 collaborateurs encadrés</span>
       </div>
@@ -1444,26 +1144,26 @@
           <div class="case-company">COHÉSION INTERNATIONAL</div>
           <div class="case-tagline">Conseil QVCT & Organisation</div>
         </div>
-        <span class="case-badge">Transformer & croître</span>
+        <span class="case-badge">Transformation</span>
       </div>
       <div class="case-toggle">&#9660;</div>
     </div>
     <div class="case-body">
       <div class="case-section-title">Contexte</div>
-      <p>Transition du modèle franchise vers coopérative. Besoin de transformation organisationnelle profonde et de croissance durable.</p>
+      <p>Transition d’un modèle de franchise vers une coopérative, avec une nécessité de transformation structurelle et de consolidation de la croissance.</p>
       <div class="case-section-title">Mission</div>
-      <p>Directeur du Développement — Membre du comité de direction. Pilotage de la transformation et de la stratégie commerciale.</p>
+      <p>Direction du développement et participation au comité de direction, avec responsabilité sur la transformation et la stratégie commerciale.</p>
       <div class="case-section-title">Actions clés</div>
       <ul>
-        <li>Pilotage de la transformation du modèle économique (franchise → coopérative)</li>
-        <li>Coordination de 70 consultants franchisés</li>
-        <li>Supervision du développement de 24 alternants Sales, Marketing & Conseil</li>
-        <li>Stratégie commerciale, gouvernance et organisation</li>
+        <li>Pilotage du changement de modèle économique.</li>
+        <li>Coordination d’un réseau de 70 consultants.</li>
+        <li>Accompagnement de 24 alternants Sales, Marketing et Conseil.</li>
+        <li>Structuration commerciale, gouvernance et organisation.</li>
       </ul>
       <div class="case-section-title">Résultats</div>
       <div class="case-results">
         <span class="case-result">P&L 5,5M€ piloté</span>
-        <span class="case-result">+12% croissance consolidée en 3 ans</span>
+        <span class="case-result">+12% de croissance consolidée en 3 ans</span>
         <span class="case-result">70 consultants coordonnés</span>
         <span class="case-result">Transformation réussie</span>
       </div>
@@ -1478,18 +1178,13 @@
     </div>
     <div class="reveal reveal-delay-2">
       <div class="section-label">Leadership</div>
-      <h2 class="leadership-quote">
-        Un leader n'est pas celui qui brille seul.<br>
-        C'est celui qui fait <span class="accent">grandir les autres</span>.
-      </h2>
+      <h2 class="leadership-quote">Un dirigeant ne se juge pas à ce qu’il fait seul, mais à ce qu’il permet aux autres de réussir.</h2>
       <p class="leadership-text">
-        Fils et petit-fils de militaire, j'ai hérité d'un sens du devoir profond. Je crois à l'intelligence
-        collective, au potentiel de chacun, et à l'idée qu'une équipe progresse lorsque chacun apporte sa pierre.
+        Issu d’un environnement marqué par le sens du devoir, j’accorde une grande importance à la responsabilité, à l’exigence et à l’intelligence collective.
+        Je crois aux équipes claires, aux objectifs partagés et à la constance dans l’exécution.
       </p>
       <p class="leadership-text">
-        Il y a quelques années, une blessure grave (cheville brisée, opération avec broches et tendon refait,
-        canne pendant un an) a failli m'arrêter. Plutôt qu'un frein, j'en ai fait une force. La résilience
-        ne se décrète pas, elle se construit.
+        Une blessure grave a un jour remis en perspective ma capacité à avancer. Cette expérience a renforcé ma conviction qu’une trajectoire solide repose aussi sur la résilience, la discipline et la lucidité.
       </p>
     </div>
   </div>
@@ -1497,10 +1192,10 @@
 
 <section id="contact">
   <div class="reveal">
-    <h2 class="contact-title">Construisons quelque chose ensemble</h2>
+    <h2 class="contact-title">Échangeons sur vos enjeux</h2>
     <p class="contact-subtitle">
-      Directeur Général Adjoint — Directeur Commercial Exécutif — PME / ETI ambitieuse<br>
-      France, Belgique, Suisse, Luxembourg, Canada, Irlande, Pays nordiques
+      Direction générale adjointe • Direction commerciale exécutive • PME / ETI ambitieuse<br>
+      France, Belgique, Suisse, Luxembourg, Canada, Irlande
     </p>
     <div class="contact-grid">
       <a href="mailto:axel.raffenaud@gmail.com" class="contact-card">
@@ -1524,7 +1219,7 @@
 </section>
 
 <footer>
-  <p>Axel Raffenaud — Directeur Général Adjoint • Lyon, France</p>
+  <p>Axel Raffenaud — Dirigeant opérationnel • Lyon, France</p>
   <p style="margin-top:8px; font-size:12px;">
     <a href="#hero">Haut de page</a> •
     <a href="https://linkedin.com/in/axel-raffenaud" target="_blank">LinkedIn</a> •
@@ -1533,15 +1228,13 @@
 </footer>
 
 <div class="mobile-cta">
-  <a href="mailto:axel.raffenaud@gmail.com">Me contacter</a>
+  <a href="mailto:axel.raffenaud@gmail.com">Écrire</a>
   <a href="tel:+33626454778">Appeler</a>
 </div>
 
 <script>
   const navbar = document.getElementById('navbar');
-  window.addEventListener('scroll', () => {
-    navbar.classList.toggle('scrolled', window.scrollY > 50);
-  });
+  window.addEventListener('scroll', () => navbar.classList.toggle('scrolled', window.scrollY > 50));
 
   const mantraText = "Le plus gros risque, c'est qu'on nous dise oui.";
   const typewriterEl = document.getElementById('typewriter');
@@ -1550,57 +1243,45 @@
     if (charIndex < mantraText.length) {
       typewriterEl.innerHTML = '"' + mantraText.substring(0, charIndex + 1) + '<span class="cursor"></span>"';
       charIndex++;
-      setTimeout(typeWriter, 45 + Math.random() * 30);
+      setTimeout(typeWriter, 45);
     } else {
       typewriterEl.innerHTML = '"' + mantraText + '"';
     }
   }
-  setTimeout(typeWriter, 800);
+  setTimeout(typeWriter, 700);
 
   const heroPhoto = document.getElementById('heroPhoto');
   window.addEventListener('scroll', () => {
     const scrolled = window.scrollY;
-    const maxScroll = window.innerHeight;
-    if (scrolled < maxScroll) {
-      const offset = scrolled * 0.15;
-      heroPhoto.style.transform = `translateY(${offset}px)`;
-    }
+    if (scrolled < window.innerHeight) heroPhoto.style.transform = `translateY(${scrolled * 0.12}px)`;
   });
 
-  const revealObserver = new IntersectionObserver((entries) => {
-    entries.forEach(entry => {
-      if (entry.isIntersecting) {
-        entry.target.classList.add('visible');
-      }
-    });
-  }, { threshold: 0.1, rootMargin: '0px 0px -50px 0px' });
+  const revealObserver = new IntersectionObserver(entries => {
+    entries.forEach(entry => { if (entry.isIntersecting) entry.target.classList.add('visible'); });
+  }, { threshold: 0.12, rootMargin: '0px 0px -40px 0px' });
   document.querySelectorAll('.reveal').forEach(el => revealObserver.observe(el));
 
-  const timelineObserver = new IntersectionObserver((entries) => {
-    entries.forEach((entry) => {
-      if (entry.isIntersecting) {
-        setTimeout(() => entry.target.classList.add('visible'), entry.target.dataset.delay * 150);
-      }
+  const timelineObserver = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) setTimeout(() => entry.target.classList.add('visible'), entry.target.dataset.delay * 140);
     });
   }, { threshold: 0.2 });
   document.querySelectorAll('.timeline-item').forEach(el => timelineObserver.observe(el));
 
-  const counterObserver = new IntersectionObserver((entries) => {
+  const counterObserver = new IntersectionObserver(entries => {
     entries.forEach(entry => {
       if (entry.isIntersecting && !entry.target.classList.contains('counted')) {
         entry.target.classList.add('counted');
         const target = parseInt(entry.target.dataset.target);
         const suffix = entry.target.dataset.suffix || '';
         const prefix = entry.target.dataset.prefix || '';
-        const duration = 2000;
+        const duration = 1800;
         const start = performance.now();
         function update(now) {
-          const elapsed = now - start;
-          const progress = Math.min(elapsed / duration, 1);
-          const ease = 1 - Math.pow(1 - progress, 3);
-          const current = Math.floor(ease * target);
-          entry.target.textContent = prefix + current + suffix;
-          if (progress < 1) requestAnimationFrame(update);
+          const p = Math.min((now - start) / duration, 1);
+          const e = 1 - Math.pow(1 - p, 3);
+          entry.target.textContent = prefix + Math.floor(e * target) + suffix;
+          if (p < 1) requestAnimationFrame(update);
         }
         requestAnimationFrame(update);
       }
@@ -1624,11 +1305,10 @@
     toggle.innerHTML = isOpen ? '&#9660;' : '&#9650;';
     if (!isOpen) {
       setTimeout(() => {
-        const badges = body.querySelectorAll('.case-result');
-        badges.forEach((badge, i) => {
-          setTimeout(() => badge.classList.add('visible'), i * 80);
+        body.querySelectorAll('.case-result').forEach((badge, i) => {
+          setTimeout(() => badge.classList.add('visible'), i * 70);
         });
-      }, 300);
+      }, 260);
     } else {
       body.querySelectorAll('.case-result').forEach(b => b.classList.remove('visible'));
     }
@@ -1643,11 +1323,10 @@
       toggle.classList.add('open');
       toggle.innerHTML = '&#9650;';
       setTimeout(() => {
-        const badges = body.querySelectorAll('.case-result');
-        badges.forEach((badge, i) => {
-          setTimeout(() => badge.classList.add('visible'), i * 80);
+        body.querySelectorAll('.case-result').forEach((badge, i) => {
+          setTimeout(() => badge.classList.add('visible'), i * 70);
         });
-      }, 400);
+      }, 350);
     }
   });
 
@@ -1664,48 +1343,39 @@
   });
 
   function updateDots() {
-    const dots = dotsContainer.querySelectorAll('.carousel-dot');
-    dots.forEach((dot, i) => dot.classList.toggle('active', i === currentIndex));
+    dotsContainer.querySelectorAll('.carousel-dot').forEach((dot, i) => dot.classList.toggle('active', i === currentIndex));
   }
 
   function scrollToCard(index) {
     currentIndex = Math.max(0, Math.min(index, cards.length - 1));
-    const cardWidth = cards[0].offsetWidth + 24;
+    const cardWidth = cards[0].offsetWidth + 22;
     track.scrollTo({ left: currentIndex * cardWidth, behavior: 'smooth' });
     updateDots();
   }
-
-  function scrollCarousel(direction) {
-    scrollToCard(currentIndex + direction);
-  }
+  function scrollCarousel(direction) { scrollToCard(currentIndex + direction); }
 
   track.addEventListener('scroll', () => {
-    const cardWidth = cards[0].offsetWidth + 24;
+    const cardWidth = cards[0].offsetWidth + 22;
     const newIndex = Math.round(track.scrollLeft / cardWidth);
-    if (newIndex !== currentIndex) {
-      currentIndex = newIndex;
-      updateDots();
-    }
+    if (newIndex !== currentIndex) { currentIndex = newIndex; updateDots(); }
   });
 
   function toggleMobileMenu() {
     const links = document.querySelector('.nav-links');
-    const isVisible = links.style.display === 'flex';
-    if (isVisible) {
-      links.style.display = '';
+    const open = links.style.display === 'flex';
+    if (open) {
       links.style = '';
     } else {
       links.style.display = 'flex';
       links.style.position = 'absolute';
-      links.style.top = '64px';
+      links.style.top = '66px';
       links.style.left = '0';
       links.style.right = '0';
       links.style.flexDirection = 'column';
-      links.style.background = 'rgba(7,17,29,0.98)';
-      links.style.padding = '20px 32px';
-      links.style.borderBottom = '1px solid var(--border)';
       links.style.gap = '16px';
-      links.style.zIndex = '999';
+      links.style.padding = '18px 20px';
+      links.style.background = 'rgba(6,16,27,.98)';
+      links.style.borderBottom = '1px solid var(--line)';
     }
   }
 </script>
