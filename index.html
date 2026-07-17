@@ -1101,7 +1101,97 @@
   .mobile-cta a:hover { background: var(--accent); color: var(--bg); }
 
   /* Responsive */
-  @media (max-width: 1024px) {
+  
+  /* Leadership */
+  #leadership {
+    max-width: 100%;
+    background: var(--bg-elevated);
+    border-top: 1px solid var(--border);
+    border-bottom: 1px solid var(--border);
+    padding: 0;
+  }
+  .leadership-inner {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 140px 48px;
+    display: grid;
+    grid-template-columns: 0.38fr 1fr;
+    gap: 80px;
+    align-items: center;
+  }
+  .leadership-photo {
+    width: 100%;
+    max-width: 320px;
+    border-radius: var(--radius-lg);
+    border: 1px solid var(--border);
+    opacity: 0.85;
+    filter: grayscale(15%) contrast(1.05);
+    transition: var(--transition);
+  }
+  .leadership-photo:hover {
+    opacity: 1;
+    filter: grayscale(0%) contrast(1.02);
+    border-color: var(--border-strong);
+  }
+  .leadership-quote {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 38px;
+    font-weight: 500;
+    line-height: 1.2;
+    margin-bottom: 32px;
+    color: var(--text);
+  }
+  .leadership-quote .accent {
+    color: var(--accent);
+    font-style: italic;
+  }
+  .leadership-text {
+    color: var(--text-muted);
+    font-size: 16px;
+    line-height: 1.85;
+    margin-bottom: 20px;
+    max-width: 720px;
+    font-weight: 300;
+  }
+  .leadership-text strong {
+    color: var(--text);
+    font-weight: 500;
+  }
+  .leadership-values {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    margin-top: 48px;
+    padding-top: 40px;
+    border-top: 1px solid var(--border);
+  }
+  .leadership-value {
+    text-align: center;
+  }
+  .leadership-value-icon {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 32px;
+    font-weight: 600;
+    color: var(--accent);
+    margin-bottom: 12px;
+    line-height: 1;
+  }
+  .leadership-value h4 {
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--text);
+    margin-bottom: 8px;
+  }
+  .leadership-value p {
+    font-size: 13px;
+    color: var(--text-dim);
+    line-height: 1.6;
+  }
+
+@media (max-width: 1024px) {
     .hero-grid { grid-template-columns: 1fr; gap: 60px; text-align: center; }
     .hero-name { font-size: 56px; }
     .hero-statement { margin-left: auto; margin-right: auto; text-align: left; }
@@ -1110,6 +1200,9 @@
     .profile-grid { grid-template-columns: 1fr; }
     .profile-sidebar { position: static; margin-bottom: 40px; }
     .metrics-grid, .expertise-grid, .cert-grid, .position-grid { grid-template-columns: repeat(2, 1fr); }
+    .leadership-inner { grid-template-columns: 1fr; text-align: center; gap: 48px; }
+    .leadership-photo { margin: 0 auto; max-width: 280px; }
+    .leadership-values { grid-template-columns: 1fr; }
     .exec-bar-inner { grid-template-columns: 1fr; gap: 32px; }
   }
   @media (max-width: 768px) {
@@ -1122,6 +1215,8 @@
     .hero-statement { font-size: 20px; }
     .section-title { font-size: 36px; }
     .metrics-grid, .expertise-grid, .cert-grid, .position-grid { grid-template-columns: 1fr; }
+    .leadership-inner { padding: 100px 24px; }
+    .leadership-quote { font-size: 30px; }
     .profile-highlights { grid-template-columns: 1fr; }
     .testimonial-card { flex-basis: 340px; }
     .case-header { padding: 24px; }
@@ -1179,6 +1274,7 @@
     <li><a href="#certifications">Certifications</a></li>
     <li><a href="#positionnement">Mandat</a></li>
     <li><a href="#references">Références</a></li>
+    <li><a href="#leadership">Leadership</a></li>
   </ul>
   <a href="#contact" class="nav-cta">Échanger</a>
   <button class="nav-mobile-btn" onclick="toggleMobileMenu()" aria-label="Menu">&#9776;</button>
@@ -1192,6 +1288,8 @@
   <a href="#expertise" onclick="toggleMobileMenu()" style="font-family:'Cormorant Garamond',serif;font-size:28px;color:var(--text);text-decoration:none;">Expertise</a>
   <a href="#realisations" onclick="toggleMobileMenu()" style="font-family:'Cormorant Garamond',serif;font-size:28px;color:var(--text);text-decoration:none;">Réalisations</a>
   <a href="#positionnement" onclick="toggleMobileMenu()" style="font-family:'Cormorant Garamond',serif;font-size:28px;color:var(--text);text-decoration:none;">Mandat</a>
+  <a href="#references" onclick="toggleMobileMenu()" style="font-family:'Cormorant Garamond',serif;font-size:28px;color:var(--text);text-decoration:none;">Références</a>
+  <a href="#leadership" onclick="toggleMobileMenu()" style="font-family:'Cormorant Garamond',serif;font-size:28px;color:var(--text);text-decoration:none;">Leadership</a>
   <a href="#contact" onclick="toggleMobileMenu()" style="font-family:'Cormorant Garamond',serif;font-size:28px;color:var(--accent);text-decoration:none;">Échanger</a>
 </div>
 
@@ -1763,6 +1861,52 @@
 </section>
 
 <!-- CONTACT -->
+
+<!-- LEADERSHIP -->
+<section id="leadership">
+  <div class="leadership-inner">
+    <div class="reveal">
+      <img src="./photo_axel.png" alt="Axel Raffenaud" class="leadership-photo" loading="lazy">
+    </div>
+    <div class="reveal reveal-delay-2">
+      <div class="section-label">Leadership</div>
+      <h2 class="leadership-quote">
+        Un leader n'est pas celui qui brille seul.<br>
+        C'est celui qui fait <span class="accent">grandir les autres</span>.
+      </h2>
+      <p class="leadership-text">
+        Fils et petit-fils de militaire, j'ai hérité d'un sens du devoir profond. Je crois à l'intelligence 
+        collective, au potentiel de chacun, et à l'idée qu'une équipe progresse lorsque chacun apporte sa pierre.
+        <strong>Diriger, c'est donner du sens et de la visibilité à ceux qui construisent avec vous.</strong>
+      </p>
+      <p class="leadership-text">
+        Il y a quelques années, une blessure grave — cheville brisée, opération avec broches et tendon refait, 
+        canne pendant un an — a failli m'arrêter. Plutôt qu'un frein, j'en ai fait une force. 
+        <strong>La résilience ne se décrète pas, elle se construit.</strong> Cette épreuve a renforcé ma conviction 
+        qu'une trajectoire solide repose sur la discipline, la lucidité et la capacité à avancer quand tout 
+        semble bloqué.
+      </p>
+      <div class="leadership-values">
+        <div class="leadership-value">
+          <div class="leadership-value-icon">R</div>
+          <h4>Résilience</h4>
+          <p>Transformer l'adversité en levier de progression</p>
+        </div>
+        <div class="leadership-value">
+          <div class="leadership-value-icon">D</div>
+          <h4>Discipline</h4>
+          <p>La constance dans l'exécution et la tenue des objectifs</p>
+        </div>
+        <div class="leadership-value">
+          <div class="leadership-value-icon">C</div>
+          <h4>Collectif</h4>
+          <p>L'intelligence partagée et la responsabilité distribuée</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 <section id="contact">
   <div class="reveal">
     <h2 class="contact-title">Échangeons sur vos enjeux</h2>
