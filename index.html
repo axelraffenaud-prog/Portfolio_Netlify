@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- Portfolio Axel Raffenaud - - v3.3 - 2026-08-19 -->
+<!-- Portfolio Axel Raffenaud - - v3.4 - 2026-08-20 -->
 
 <html lang="fr">
 <head>
@@ -1198,6 +1198,58 @@
     .mobile-menu { padding-top: 72px; }
   }
 
+  /* Back to Top Button */
+  .back-to-top {
+    position: fixed;
+    bottom: 28px;
+    right: 28px;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    border: 1px solid var(--border-strong);
+    background: var(--bg-elevated);
+    color: var(--text-muted);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 900;
+    opacity: 0;
+    pointer-events: none;
+    transform: translateY(12px);
+    transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    box-shadow: 0 4px 16px rgba(0,0,0,0.3);
+    -webkit-tap-highlight-color: transparent;
+  }
+  .back-to-top.visible {
+    opacity: 1;
+    pointer-events: all;
+    transform: translateY(0);
+  }
+  .back-to-top:hover {
+    border-color: var(--accent);
+    color: var(--accent);
+    background: var(--bg-card);
+    transform: translateY(-2px);
+    box-shadow: 0 8px 24px rgba(201,169,110,0.15);
+  }
+  .back-to-top svg {
+    width: 18px;
+    height: 18px;
+  }
+  @media (max-width: 768px) {
+    .back-to-top {
+      width: 42px;
+      height: 42px;
+      bottom: 80px;
+      right: 16px;
+    }
+    .back-to-top svg {
+      width: 16px;
+      height: 16px;
+    }
+  }
+
   /* Responsive */
   
   /* Leadership */
@@ -1366,7 +1418,7 @@
   <link rel="alternate" hreflang="fr" href="https://axelraffenaud-prog.github.io/Portfolio_Netlify/">
   <link rel="alternate" hreflang="en" href="https://axelraffenaud-prog.github.io/Portfolio_Netlify/en/">
   <link rel="alternate" hreflang="x-default" href="https://axelraffenaud-prog.github.io/Portfolio_Netlify/">
-<base target="_blank">
+
 <base target="_blank">
 </head>
 <body>
@@ -1882,37 +1934,37 @@
     <strong>
       La capacité à fédérer des communautés et à convertir le relationnel en levier de business est un actif stratégique différenciant.
     </strong>
-    Sur plus de vingt ans, j’ai construit, structuré et animé des écosystèmes entrepreneuriaux, économiques et institutionnels qui ont généré des opportunités commerciales concrètes et renforcé la crédibilité de mes différents mandats.
+    Sur plus de vingt ans, j'ai construit, structuré et animé des écosystèmes entrepreneuriaux, économiques et institutionnels Aujourd'hui, mon réseau compte plus de 28 000 contacts LinkedIn, dont plus de 60 % ont fait l'objet d'au moins un échange — physique ou en visio — dans une logique de qualité et de pertinence.
   </p>
 
   <p>
-    Ce réseau ne s’est pas construit ponctuellement :
+    Ce réseau ne s'est pas construit ponctuellement :
     <strong>
-      il s’enrichit et se consolide au fil des années, des entreprises accompagnées et des mandats exercés.
+      il s'enrichit et se consolide au fil des années, des entreprises accompagnées et des mandats exercés.
     </strong>
-    Je veille autant à développer de nouvelles relations qu’à entretenir celles qui existent déjà, dans une logique de confiance, de réciprocité et de long terme. Un réseau n’a de valeur que s’il reste vivant, activable et capable de créer des connexions pertinentes au moment où les enjeux apparaissent.
+    Je ne cherche pas le volume : j'adapte et développe mes contacts selon mes mandats, les entreprises dans lesquelles j'opère et les besoins stratégiques du moment. Je n'accepte pas tout le monde. Chaque relation est sélectionnée, entretenue et activée avec une exigence de qualité et de pertinence.
   </p>
 
   <p>
-    Cette capacité de fédération s’applique directement aux enjeux d’un dirigeant opérationnel :
+    Cette capacité de fédération s'applique directement aux enjeux d'un dirigeant opérationnel :
     <strong>
-      développement de partenariats, ouverture de marchés, influence auprès des parties prenantes, animation de réseaux de distribution ou de conseil, identification d’opportunités et mise en relation stratégique.
+      développement de partenariats, ouverture de marchés, influence auprès des parties prenantes, animation de réseaux de distribution ou de conseil, identification d'opportunités et mise en relation stratégique.
     </strong>
-    Elle traduit une posture de leadership capable de mobiliser des collectifs au-delà des frontières de l’entreprise et de transformer durablement le capital relationnel en levier de croissance.
+    Elle traduit une posture de leadership capable de mobiliser des collectifs au-delà des frontières de l'entreprise et de transformer durablement le capital relationnel en levier de croissance.
   </p>
       <div class="profile-highlights">
         <div class="profile-highlight">
           <div class="profile-highlight-icon">F</div>
           <div>
             <h5>Fédération d'écosystèmes</h5>
-            <p>Fondateur du 1<sup>er</sup> réseau d'affaires de France sur Viadeo (6&nbsp;000 membres actifs). Animation de 10 soirées par an (80–500 participants) avec une équipe jusqu'à  100 personnes en staff.</p>
+            <p>Plus de 28&nbsp;000 contacts LinkedIn, dont plus de 60&nbsp;% rencontrés physiquement ou en visio. Fondateur du 1<sup>er</sup> réseau d'affaires de France sur Viadeo. Approche qualitative : sélection, adaptation et activation selon les mandats et les enjeux.</p>
           </div>
         </div>
         <div class="profile-highlight">
           <div class="profile-highlight-icon">C</div>
           <div>
             <h5>Conversion réseau → business</h5>
-            <p>Ce réseau est à l'origine de la majorité de mes clients et opportunités professionnelles sur 20 ans. Preuve opérationnelle de la capacité à transformer le relationnel en affaires.</p>
+            <p>Ce réseau, que j'ai structuré sur 20 ans, est un actif double : levier de business et accélérateur de perspective. Il génère des opportunités concrètes tout en m'exposant à des regards variés qui enrichissent ma réflexion stratégique. Out of the box, par construction.</p>
           </div>
         </div>
         <div class="profile-highlight">
@@ -1924,10 +1976,8 @@
         </div>
       </div>
       <div class="case-results" style="margin-top:32px;">
-        <span class="case-result">6&nbsp;000 membres actifs</span>
-        <span class="case-result">10 événements / an</span>
-        <span class="case-result">Jusqu'à 500 participants</span>
-        <span class="case-result">50% bénéfices reversés à l'intérêt général</span>
+        <span class="case-result">28&nbsp;000+ contacts LinkedIn</span>
+        <span class="case-result">60&nbsp;% rencontrés (physique ou visio)</span>
         <span class="case-result">20 ans de réseau actif</span>
         <span class="case-result">Majorité d'opportunités issu du réseau</span>
       </div>
@@ -2184,7 +2234,7 @@
       PME / ETI ambitieuse &mdash; France, BENELUX, Suisse, Canada, Irlande
     </p>
     <div class="contact-grid">
-      <a href="mailto:axel.raffenaud@gmail.com" class="contact-card">
+      <a href="mailto:axel.raffenaud@gmail.com" target="_blank" class="contact-card">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
         axel.raffenaud@gmail.com
       </a>
@@ -2192,7 +2242,7 @@
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
         linkedin.com/in/axel-raffenaud
       </a>
-      <a href="tel:+33626454778" class="contact-card">
+      <a href="tel:+33626454778" target="_blank" class="contact-card">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
         +33 6 26 45 47 78
       </a>
@@ -2209,7 +2259,7 @@
   <p style="margin-top:10px; font-size:12px;">
     <a href="#hero">Haut de page</a> &bull;
     <a href="https://linkedin.com/in/axel-raffenaud" target="_blank">LinkedIn</a> &bull;
-    <a href="mailto:axel.raffenaud@gmail.com">Email</a>
+    <a href="mailto:axel.raffenaud@gmail.com" target="_blank">Email</a>
   </p>
 </footer>
 
@@ -2321,6 +2371,19 @@
       document.body.classList.add('menu-open');
     }
   }
+
+  // Back to Top
+  const backToTop = document.getElementById('backToTop');
+  window.addEventListener('scroll', () => {
+    backToTop.classList.toggle('visible', window.scrollY > 500);
+  });
+  backToTop.addEventListener('click', () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+
 </script>
+<button class="back-to-top" id="backToTop" aria-label="Haut de page">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"/></svg>
+</button>
 </body>
 </html>
