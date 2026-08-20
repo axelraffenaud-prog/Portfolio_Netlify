@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- Portfolio Axel Raffenaud - v3.3 - 2026-08-19 -->
+<!-- Portfolio Axel Raffenaud - v3.4 - 2026-08-20 -->
 
 <html lang="en">
 <head>
@@ -1193,6 +1193,58 @@
     .mobile-menu { padding-top: 72px; }
   }
 
+  /* Back to Top Button */
+  .back-to-top {
+    position: fixed;
+    bottom: 28px;
+    right: 28px;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    border: 1px solid var(--border-strong);
+    background: var(--bg-elevated);
+    color: var(--text-muted);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 900;
+    opacity: 0;
+    pointer-events: none;
+    transform: translateY(12px);
+    transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    box-shadow: 0 4px 16px rgba(0,0,0,0.3);
+    -webkit-tap-highlight-color: transparent;
+  }
+  .back-to-top.visible {
+    opacity: 1;
+    pointer-events: all;
+    transform: translateY(0);
+  }
+  .back-to-top:hover {
+    border-color: var(--accent);
+    color: var(--accent);
+    background: var(--bg-card);
+    transform: translateY(-2px);
+    box-shadow: 0 8px 24px rgba(201,169,110,0.15);
+  }
+  .back-to-top svg {
+    width: 18px;
+    height: 18px;
+  }
+  @media (max-width: 768px) {
+    .back-to-top {
+      width: 42px;
+      height: 42px;
+      bottom: 80px;
+      right: 16px;
+    }
+    .back-to-top svg {
+      width: 16px;
+      height: 16px;
+    }
+  }
+
   /* Responsive */
   
   /* Leadership */
@@ -1361,7 +1413,7 @@
   <link rel="alternate" hreflang="fr" href="https://axelraffenaud-prog.github.io/Portfolio_Netlify/">
   <link rel="alternate" hreflang="en" href="https://axelraffenaud-prog.github.io/Portfolio_Netlify/en/">
   <link rel="alternate" hreflang="x-default" href="https://axelraffenaud-prog.github.io/Portfolio_Netlify/">
-<base target="_blank">
+
 <base target="_blank">
 </head>
 <body>
@@ -1877,7 +1929,7 @@
     <strong>
       The ability to build communities and turn relationships into business opportunities is a strategic and differentiating asset.
     </strong>
-    Over more than twenty years, I have built, structured, and led entrepreneurial, business, and institutional ecosystems that have generated tangible commercial opportunities while strengthening the credibility and impact of the roles I have held.
+    Over more than twenty years, I have built, structured, and led entrepreneurial, business, and institutional ecosystems. Today, my network comprises over 28,000 LinkedIn contacts, more than 60% of whom I have met in person or via video call — with a focus on quality and relevance.
   </p>
 
   <p>
@@ -1885,7 +1937,7 @@
     <strong>
       it has continuously grown and strengthened through the years, across companies, responsibilities, and executive mandates.
     </strong>
-    I place as much value on nurturing existing relationships as I do on developing new ones, with a long-term approach built on trust, reciprocity, and mutual value. A network only creates value when it remains active, engaged, and capable of generating the right connections when business challenges arise.
+    I do not chase volume: I adapt and develop my contacts according to my mandates, the companies I operate in, and the strategic needs of the moment. I do not accept everyone. Every relationship is selected, nurtured, and activated with a demand for quality and relevance.
   </p>
 
   <p>
@@ -1900,14 +1952,14 @@
           <div class="profile-highlight-icon">F</div>
           <div>
             <h5>Ecosystem Federation</h5>
-            <p>Founder of France's #1 business network on Viadeo (6,000 active members). 10 events per year (80–500 attendees) with a 100-person production team.</p>
+            <p>Over 28,000 LinkedIn contacts, more than 60% met in person or via video call. Founder of France's #1 business network on Viadeo. Qualitative approach: selection, adaptation and activation based on mandates and strategic challenges.</p>
           </div>
         </div>
         <div class="profile-highlight">
           <div class="profile-highlight-icon">C</div>
           <div>
             <h5>Network → Business Conversion</h5>
-            <p>This network has been the source of the majority of my clients and professional opportunities over 15 years. Operational proof of the ability to convert relationships into commercial pipeline.</p>
+            <p>This network, built over 20 years, is a dual asset: a business lever and a perspective accelerator. It generates concrete opportunities while exposing me to diverse viewpoints that enrich my strategic thinking. Out of the box by design.</p>
           </div>
         </div>
         <div class="profile-highlight">
@@ -1919,12 +1971,10 @@
         </div>
       </div>
       <div class="case-results" style="margin-top:32px;">
-        <span class="case-result">6,000 active members</span>
-        <span class="case-result">10 events / year</span>
-        <span class="case-result">Up to 500 attendees</span>
-        <span class="case-result">50% profits reinvested in public interest</span>
-        <span class="case-result">15 years of active network</span>
-        <span class="case-result">Majority of historical revenue from network</span>
+        <span class="case-result">28,000+ LinkedIn contacts</span>
+        <span class="case-result">60% met (in person or video)</span>
+        <span class="case-result">20 years of active network</span>
+        <span class="case-result">Majority of opportunities from network</span>
       </div>
     </div>
   </div>
@@ -2179,7 +2229,7 @@
       Ambitious SME / Mid-cap &mdash; France, Benelux, Switzerland, Canada, Ireland
     </p>
     <div class="contact-grid">
-      <a href="mailto:axel.raffenaud@gmail.com" class="contact-card">
+      <a href="mailto:axel.raffenaud@gmail.com" target="_blank" class="contact-card">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
         axel.raffenaud@gmail.com
       </a>
@@ -2187,7 +2237,7 @@
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
         linkedin.com/in/axel-raffenaud
       </a>
-      <a href="tel:+33626454778" class="contact-card">
+      <a href="tel:+33626454778" target="_blank" class="contact-card">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
         +33 6 26 45 47 78
       </a>
@@ -2204,12 +2254,12 @@
   <p style="margin-top:10px; font-size:12px;">
     <a href="#hero">Back to top</a> &bull;
     <a href="https://linkedin.com/in/axel-raffenaud" target="_blank">LinkedIn</a> &bull;
-    <a href="mailto:axel.raffenaud@gmail.com">Email</a>
+    <a href="mailto:axel.raffenaud@gmail.com" target="_blank">Email</a>
   </p>
 </footer>
 
 <div class="mobile-cta">
-  <a href="mailto:axel.raffenaud@gmail.com">Email</a>
+  <a href="mailto:axel.raffenaud@gmail.com" target="_blank">Email</a>
   <a href="tel:+33626454778">Call</a>
 </div>
 
@@ -2316,6 +2366,19 @@
       document.body.classList.add('menu-open');
     }
   }
+
+  // Back to Top
+  const backToTop = document.getElementById('backToTop');
+  window.addEventListener('scroll', () => {
+    backToTop.classList.toggle('visible', window.scrollY > 500);
+  });
+  backToTop.addEventListener('click', () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+
 </script>
+<button class="back-to-top" id="backToTop" aria-label="Back to top">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"/></svg>
+</button>
 </body>
 </html>
